@@ -1,0 +1,34 @@
+{
+    "cards" :[
+    {
+        "id":1,
+        "title" : "WARMA",
+        "category" : "a",
+        "img" : "/img/test.png"
+    },
+    {
+        "id":2,
+        "title" : "WARMAS",
+        "category" : "b",
+        "img" : "/img/test.png"
+    },
+    {
+        "id":3,
+        "title" : "WARMASS",
+        "category" : "c",
+        "img" : "/img/test.png"
+    },
+    {
+        "id":4,
+        "title" : "WARMASSS",
+        "category" : "c",
+        "img" : "/img/test.png"
+    },
+    {
+        "id":5,
+        "title" : "WARMASSSS",
+        "category" : "d",
+        "img" : "/img/test.png"
+    }
+]
+}

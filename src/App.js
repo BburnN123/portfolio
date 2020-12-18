@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Container from 'react-bootstrap/Container';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch, useParams} from 'react-router-dom';
 
 import Footer from './components/Footer';
 import Nav from './components/Nav';
@@ -11,6 +11,7 @@ import AboutPage from './pages/AboutPage';
 import ProjectPage from './pages/ProjectPage';
 import LabPage from './pages/LabPage';
 import ContactPage from './pages/ContactPage';
+
 
 class App extends React.Component  {
   constructor(props)
@@ -32,20 +33,22 @@ class App extends React.Component  {
     }
   }
 
-
+  
   render(){
+   
     return (
       <Router>
-        <Container className="p-8" fluid={true}>
-          <Nav />
+        <Container fluid className="p-8">
+        
+            <Nav/>
+
+
           <Switch>
             <Route path="/" exact component={HomePage}/>
             <Route path="/about" component={AboutPage}/>
-            <Route path="/project/:page" render={()=> <ProjectPage title={this.state.project.title} page={false}/>}/>
-            <Route path="/lab" component={LabPage}/>
-            <Route path="/contact" component={ContactPage}/>
+            <Route path="/project/:page?" render={(props)=> <ProjectPage title={this.state.project.title} {...props}/>}/>
           </Switch>
-          <Footer/>
+          {/* <Footer/> */}
         </Container>
       </Router>
     );

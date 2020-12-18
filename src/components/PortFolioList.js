@@ -14,20 +14,21 @@ class PortFolioList extends React.Component
         super(props);
         this.state={
             title : props.title,
-            projectInfo : props.page,
-            portFolioID : -1
+            id : -1
         };
 
     }
 
     componentWillUnmount() {
-        alert("The component named Header is about to be unmounted.");
+
     }
+
+    componentDidMount() {
+     
+    }
+    
     showInfo =(id)=>{
-        this.setState({
-            projectInfo: true,
-            portFolioID : id
-        })
+        this.props.history.push('project/' + data.cards[id - 1].title.toLowerCase());
     }
 
     // Create cards
@@ -75,10 +76,19 @@ class PortFolioList extends React.Component
 
     render()
     {
-        if(this.state.projectInfo === true)
+        if(this.props.match.params.page)
         {
+            let data_key = 0;
+            data.cards.forEach((element, key) => {
+                if(element.title.toLowerCase() === this.props.match.params.page.toLowerCase())
+                {
+                    data_key = key;
+                }
+            })
+
+            console.log(data_key)
             return(
-                <PortFolioInfo id={this.state.portFolioID} />
+                <PortFolioInfo id={data_key} />
             );
         }
         else{
@@ -96,6 +106,5 @@ class PortFolioList extends React.Component
     }
   
 }
-
 
 export default PortFolioList;

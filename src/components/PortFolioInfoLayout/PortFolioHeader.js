@@ -1,5 +1,5 @@
 import React from 'react';
-import {Carousel, Image} from 'react-bootstrap'
+import {Image} from 'react-bootstrap'
 
 function PortFolioHeader(props)
 {

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Jumbotron, Row, Col} from 'react-bootstrap';
+import {Container, Jumbotron, Row, Col ,Button} from 'react-bootstrap';
 import data from '../../assets/data/data.json';
 import CardInfo from '../CardLayout/CardInfo';
 import PortFolioList from '../PortFolioList'
@@ -7,10 +7,12 @@ import PortFolioList from '../PortFolioList'
 class HomeLanding extends React.Component{
     constructor(props)
     {
+        
         super(props);
         this.state = {
             item : []
         }
+
     }
 
     componentWillUnmount()
@@ -47,13 +49,21 @@ class HomeLanding extends React.Component{
                     <Container>
                         <Row>
                             <Col>
-                                <h1 className="font-weight-bolder display-1">Searching the possibility</h1>
-                                <h3 className="font-weight-light display-4">Hello, my name is Hui Jie!</h3>
+                                <h1 className="font-weight-bolder display-2">Searching the possibility</h1>
+                                <h3 className="font-weight-light display-4">Hello, my name is Hui Jie and here is a list of my project that I have done!</h3>
                             </Col>
-                        </Row>                    
+                        </Row>     
+                        <Row>
+                            <Col>
+                            <Button variant="primary" size="lg" >
+                                Hold SPACE to start
+                            </Button>
+                            </Col>
+                        </Row>               
                     </Container>
                 </Jumbotron>
-                {/* <PortFolioList /> */}
+
+              
             
             </Container>
         );

@@ -1,10 +1,9 @@
 import React from 'react'
+import CardCarousel from '../components/CardCarouselLayout';
 
 function AboutPage(props){
     return(
-        <div>
-            AboutPage
-        </div>
+        <CardCarousel/>
     );
 }
 

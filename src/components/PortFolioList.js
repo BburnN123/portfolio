@@ -93,7 +93,7 @@ class PortFolioList extends React.Component
         }
         else{
             return(
-                <Container id="portfolio-container">
+                <Container id="portfolio-container" fluid>
                      <Header title={this.state.title}/>
                     <ul id="button-group">
                         {this.makeTabs(data.cards)}

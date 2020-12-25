@@ -12,6 +12,74 @@ code {
     monospace;
 }
 
+.left-landing, .right-landing
+{
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  
+}
+
+#landing-content
+{
+  text-align: center;
+}
+
+#landing-content > .intro-img, #landing-content > .intro-content
+{
+  position:absolute;
+  z-index: 2;
+  right: 0;
+  left: 0;
+  margin: auto;
+
+  width: fit-content;
+  color: white;
+}
+
+#landing-content > .intro-img
+{
+  top: 0px;
+  bottom:400px;
+
+}
+
+#landing-content > .intro-content
+{
+  top:650px;
+
+}
+
+.layer {
+  background-color: rgba(0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255,255,255);
+  opacity: 0.5;
+}
+
+.layer:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+
+}
+
+.layer-content img{
+  width:150px;
+  margin-bottom: 10px;
+
+}
+
+
 .container
 {
   margin-top: 10px;
@@ -95,31 +163,41 @@ code {
   width: 100%;
   list-style: none;
   cursor:pointer;
+  padding: 0;
 }
 
 #portfolio-container > #button-group > li 
 {
   display: inline-block;
-  margin-left:20px;
-  border:1px solid black;
+  margin-left: 20px;
+  border: 1px solid black;
   padding: 5px 20px;
   width: 100px;
   text-align: center;
+  border-radius: 5px;
+  font-weight: 100;
+}
+
+#portfolio-container > #button-group > li:hover
+{
+  background: #000000;
+  color: white;
+  outline: white;
 }
 
 #portfolio-container > #button-group > li.active
 {
-  background: lightgreen;
+  background: #000000;
+  color: white;
+  outline: white;
+
 }
+
+
 
 .portfolio-carousel img
 {
   height: 50vh;
-}
-
-.home-particles
-{
-  background:grey
 }
 
 .home-particles .tsparticles-canvas-el
@@ -127,9 +205,26 @@ code {
   background:grey;
   position: absolute;
   z-index: -1;
+  top: 0;
+  left: 0;
 }
 
 .container-app
 {
   padding: 0;
+}
+
+
+/*Social Media Navigation*/
+.socialmedia-nav
+{
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+.socialmedia-nav li
+{
+  margin: 20px;
+  display: inline-block;
 }

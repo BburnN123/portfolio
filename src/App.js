@@ -38,18 +38,14 @@ class App extends React.Component  {
    
     return (
       <Router>
-        <Container fluid className="p-8">
-        
-            <Nav/>
-
-
+          {/* <Nav/> */}
           <Switch>
-            <Route path="/" exact component={HomePage}/>
+            <Route path="/portfolio" exact component={HomePage}/>
             <Route path="/about" component={AboutPage}/>
             <Route path="/project/:page?" render={(props)=> <ProjectPage title={this.state.project.title} {...props}/>}/>
           </Switch>
           {/* <Footer/> */}
-        </Container>
+
       </Router>
     );
   }

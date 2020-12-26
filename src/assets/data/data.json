@@ -1,34 +1,54 @@
 {
     "cards" :[
-    {
-        "id":1,
-        "title" : "WARMA",
-        "category" : "a",
-        "img" : "portfolio/img/logo.png"
-    },
-    {
-        "id":2,
-        "title" : "WARMAS",
-        "category" : "b",
-        "img" : "portfolio/img/logo.png"
-    },
-    {
-        "id":3,
-        "title" : "WARMASS",
-        "category" : "c",
-        "img" : "portfolio/img/logo.png"
-    },
-    {
-        "id":4,
-        "title" : "WARMASSS",
-        "category" : "c",
-        "img" : "portfolio/img/logo.png"
-    },
-    {
-        "id":5,
-        "title" : "WARMASSSS",
-        "category" : "d",
-        "img" : "portfolio/img/logo.png"
-    }
-]
+        {
+            "id":1,
+            "title" : "WARMA",
+            "category" : "a",
+            "img" : "portfolio/img/logo.png"
+        },
+        {
+            "id":2,
+            "title" : "WARMAS",
+            "category" : "b",
+            "img" : "portfolio/img/logo.png"
+        },
+        {
+            "id":3,
+            "title" : "WARMASS",
+            "category" : "c",
+            "img" : "portfolio/img/logo.png"
+        },
+        {
+            "id":4,
+            "title" : "WARMASSS",
+            "category" : "c",
+            "img" : "portfolio/img/logo.png"
+        },
+        {
+            "id":5,
+            "title" : "WARMASSSS",
+            "category" : "d",
+            "img" : "portfolio/img/logo.png"
+        }
+    ],
+    "education" : [
+            {
+                "id":1,
+                "time" : "2019",
+                "school" : "Singapore Techincal Insitute (SIT)",
+                "img" : "portfolio/img/logo.png"
+            },
+            {
+                "id":2,
+                "time" : "2013",
+                "school" : "Nanyang Polytechnic",
+                "img" : "portfolio/img/logo.png"
+            },
+            {
+                "id":3,
+                "time" : "2008",
+                "school" : "Punggol Secondary School",
+                "img" : "portfolio/img/logo.png"
+            }
+    ]
 }

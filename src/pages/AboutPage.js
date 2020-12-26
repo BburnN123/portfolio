@@ -1,23 +1,17 @@
 import React from 'react'
 import CardCarousel from '../components/CardCarouselLayout';
+import InformationLayout from '../components/AboutLayout/InformationLayout';
 import DisplayProfile from '../assets/images/displaypic.png';
-import AboutSideNav from '../components/AboutSideNav';
-import {Image, Row, Col} from 'react-bootstrap';
+import {Image, Row, Col, Container, Tabs, Tab} from 'react-bootstrap';
+import ProfileBackground from '../assets/images/profile-blur.png'
 
 function AboutPage(props){
     return(
-        <div>
-
-                <Row>
-                    <Col>
-                        <AboutSideNav/>
-                        {/* <Image src={DisplayProfile}/> */}
-                    </Col>
-                    <Col>
-                        asd
-                    </Col>
-                </Row>
-        </div>
+        <Container>
+            <InformationLayout />
+         
+                        
+        </Container>
     );
 }
 

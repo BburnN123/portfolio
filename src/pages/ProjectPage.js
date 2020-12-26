@@ -4,6 +4,7 @@ import PortFolioList from '../components/PortFolioList';
 function ProjectPage(props){
     return(
         <div>
+            
             {/* <PortFolioList title={props.title}  {...props}/> */}
         </div>
     );

@@ -19,11 +19,11 @@ const EducationTab = () =>
 {
     return(
         <div>
-            <ul id="timeline-nav">
+            {/* <ul id="timeline-nav">
                 {data.education.map((element, i) => {
                     return(
                         <li>
-                            <div>
+                            <div className="timeline-container">
                                 <Card>
                                     {element.time}
                                 </Card>
@@ -31,7 +31,7 @@ const EducationTab = () =>
                         </li>
                     )
                 })}
-            </ul>
+            </ul> */}
         </div>
     )
 }
@@ -51,10 +51,10 @@ function InformationLayout()
     const [PageIndex, setPageIndex] = useState(1);
     return(
         <Row>
-            <Col>
+            <Col md={6} >
             {/* <Image src={DisplayProfile} /> */}
             </Col>
-            <Col>
+            <Col md={6} >
             <div id="info-nav-container">
                 <nav id="info-nav">
                     <ul>
@@ -70,8 +70,7 @@ function InformationLayout()
                         <li className="slide"></li>
                     </ul>
                 </nav>
-            </div>
-               
+            </div>                  
                {TabPage}
 
               

@@ -49,6 +49,12 @@
                 "time" : "2008",
                 "school" : "Punggol Secondary School",
                 "img" : "portfolio/img/logo.png"
+            },
+            {
+                "id":4,
+                "time" : "2008",
+                "school" : "Punggol Secondary School",
+                "img" : "portfolio/img/logo.png"
             }
     ]
 }

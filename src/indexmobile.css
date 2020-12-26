@@ -36,4 +36,11 @@
       margin: 20px;
       display: inline-block;
     }
+
+
+    /*About Page*/
+    #info-nav {
+        transform: scale(0.9);
+    }
+
   }

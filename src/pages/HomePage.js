@@ -1,7 +1,8 @@
 import React from 'react'
 import HomeLanding from '../components/HomeLayout/HomeLanding';
-import Particles from 'react-particles-js';
+
 import { Row, Col, Image} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 import FacebookLogo from '../assets/images/facebook-black.png'
 import InstagramLogo from '../assets/images/instagram-black.png'
 import LinkedinLogo from '../assets/images/linkedin-black.png'
@@ -22,43 +23,66 @@ const rightStyles = {
 };
 
 function HomePage(props){
-
     return(
         <div id="landing-content">
-          
-                <Image src={Logo} className="intro-img"/>
-                <span className="intro-content"><h1>Hello, I am Hui Jie! <br/> Let's get started!</h1></span>
-            
-                   
+            <Row className="m-intro">
+                <Col>
+                    <Image src={Logo} className="intro-img"/>
+                            <span className="intro-content">
+                                <h1>Hello, I am Hui Jie! </h1><br/> 
+                                <h3>Frontend &bull; Backend &bull; Developer</h3>
+                            </span>
+                        <ul className="m-socialmedia-nav">
+                            <li><Image src={LinkedinLogo} width="50px"/></li>
+                            <li><Image src={InstagramLogo} width="50px"/></li>
+                            <li><Image src={FacebookLogo} width="50px"/></li>
+                        </ul>       
+                </Col>
+            </Row>
+
+                    <Image src={Logo} className="intro-img w-intro"/>
+                        <span className="intro-content w-intro">
+                            <h1>Hello, I am Hui Jie! </h1><br/> 
+                            <h3>Frontend &bull; Backend &bull; Developer</h3>
+                        </span>
+                    <ul className="socialmedia-nav w-intro">
+                        <li><Image src={LinkedinLogo} width="50px"/></li>
+                        <li><Image src={InstagramLogo} width="50px"/></li>
+                        <li><Image src={FacebookLogo} width="50px"/></li>
+                    </ul>       
+  
 
             <Row noGutters>
                 <Col md={6} className="left-landing center" style={leftStyles}>
-                   
-                    <div className="layer">
-                        <div className="layer-content">
-                            <Image src={ProfileImg} className="intro-img"/>
-                            <h3>View my profile</h3>
+                    <Link to="/about">
+                        <div className="layer">
+                            <div className="layer-content">
+                                <Image src={ProfileImg} className="intro-img"/>
+                                <h3>View my profile</h3>
+                            </div>
                         </div>
-                    </div>
+                    </Link>
                 </Col>
+           
+
+             
                 <Col md={6} className="right-landing" style={rightStyles}> 
-                    <div className="layer">
-                        <div className="layer-content">
-                            <Image src={ProjectImg} className="intro-img"/>
-                            <h3>View my project</h3>
+                    <Link to="/project">
+                        <div className="layer">
+                            <div className="layer-content">
+                                <Image src={ProjectImg} className="intro-img"/>
+                                <h3>View my project</h3>
+                            </div>
                         </div>
-                    </div>
+                        </Link>
                 </Col>
+               
             </Row>
 
            
         
-           {/* <HomeLanding/>
-           <ul className="socialmedia-nav">
-                <li><Image src={LinkedinLogo} width="50px"/></li>
-                <li><Image src={InstagramLogo} width="50px"/></li>
-                <li><Image src={FacebookLogo} width="50px"/></li>
-            </ul> */}
+           {/* <HomeLanding/> */}
+   
           
          
   

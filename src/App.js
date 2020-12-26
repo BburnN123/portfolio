@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Container from 'react-bootstrap/Container';
-import {BrowserRouter as Router, Route, Switch, useParams} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch, useParams, useLocation} from 'react-router-dom';
 
 import Footer from './components/Footer';
 import Nav from './components/Nav';
@@ -9,8 +9,6 @@ import Nav from './components/Nav';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ProjectPage from './pages/ProjectPage';
-import LabPage from './pages/LabPage';
-import ContactPage from './pages/ContactPage';
 
 
 class App extends React.Component  {
@@ -33,12 +31,13 @@ class App extends React.Component  {
     }
   }
 
-  
   render(){
-   
+
     return (
+
       <Router>
-          {/* <Nav/> */}
+
+          <Nav/>
           <Switch>
             <Route path="/portfolio" exact component={HomePage}/>
             <Route path="/about" component={AboutPage}/>
@@ -47,6 +46,7 @@ class App extends React.Component  {
           {/* <Footer/> */}
 
       </Router>
+      
     );
   }
  

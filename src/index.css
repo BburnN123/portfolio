@@ -12,6 +12,11 @@ code {
     monospace;
 }
 
+.m-intro
+{
+  display: none !important;
+}
+
 .left-landing, .right-landing
 {
   width: 100%;
@@ -22,12 +27,22 @@ code {
   
 }
 
+
 #landing-content
 {
   text-align: center;
 }
 
-#landing-content > .intro-img, #landing-content > .intro-content
+.intro-container 
+{
+  position:absolute;
+  z-index: 2;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+#landing-content > .intro-img, #landing-content > .intro-content, .socialmedia-nav
 {
   position:absolute;
   z-index: 2;
@@ -41,8 +56,8 @@ code {
 
 #landing-content > .intro-img
 {
-  top: 0px;
-  bottom:400px;
+
+  bottom:550px;
 
 }
 
@@ -193,8 +208,6 @@ code {
 
 }
 
-
-
 .portfolio-carousel img
 {
   height: 50vh;
@@ -220,11 +233,36 @@ code {
 {
   text-decoration: none;
   list-style: none;
-  
+  bottom: 300px;
+  padding-left: 0px;
 }
 
 .socialmedia-nav li
 {
   margin: 20px;
   display: inline-block;
+}
+
+.navbar
+{
+  padding:0px;
+}
+
+/*Sidebar for about*/
+.n-about-sidebar
+{
+  background: yellow;
+  position: fixed;
+  padding: 20px;
+  height: 100vh;
+  width: 200px;
+}
+.n-about-sidebar ul
+{
+  list-style: none;
+}
+
+.n-about-sidebar li
+{
+  display: block;
 }

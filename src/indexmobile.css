@@ -1,0 +1,39 @@
+@media screen and (max-width: 500px) {
+    .w-intro
+    {
+        display: none !important;
+    }
+    .m-intro
+    {
+        display: initial !important;
+        position: initial !important;
+    }
+
+    .m-intro .intro-img
+    {
+        width: 200px !important;
+    }
+
+    .layer-content img
+    {
+        width: 100px;
+    }
+
+    .left-landing, .right-landing
+    {
+        height: 300px;
+    }
+
+    .m-socialmedia-nav
+    {
+      text-decoration: none;
+      list-style: none;
+      padding-left: 0px;
+    }
+    
+    .m-socialmedia-nav li
+    {
+      margin: 20px;
+      display: inline-block;
+    }
+  }

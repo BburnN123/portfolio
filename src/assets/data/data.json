@@ -36,25 +36,25 @@
                 "id":1,
                 "time" : "2019",
                 "school" : "Singapore Techincal Insitute (SIT)",
-                "img" : "portfolio/img/logo.png"
+                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut odio et leo condimentum sagittis in eu neque. Mauris suscipit tellus at eros gravida, quis vulputate arcu consequat. Maecenas ac tellus convallis, elementum nunc at, tristique magna. Donec facilisis ante non eros vulputate lobortis lacinia id quam. Suspendisse auctor malesuada ipsum quis eleifend. Nam ac elit ac sapien elementum"
             },
             {
                 "id":2,
                 "time" : "2013",
                 "school" : "Nanyang Polytechnic",
-                "img" : "portfolio/img/logo.png"
+                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut odio et leo condimentum sagittis in eu neque. Mauris suscipit tellus at eros gravida, quis vulputate arcu consequat. Maecenas ac tellus convallis, elementum nunc at, tristique magna. Donec facilisis ante non eros vulputate lobortis lacinia id quam. Suspendisse auctor malesuada ipsum quis eleifend. Nam ac elit ac sapien elementum"
             },
             {
                 "id":3,
                 "time" : "2008",
                 "school" : "Punggol Secondary School",
-                "img" : "portfolio/img/logo.png"
+                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut odio et leo condimentum sagittis in eu neque. Mauris suscipit tellus at eros gravida, quis vulputate arcu consequat. Maecenas ac tellus convallis, elementum nunc at, tristique magna. Donec facilisis ante non eros vulputate lobortis lacinia id quam. Suspendisse auctor malesuada ipsum quis eleifend. Nam ac elit ac sapien elementum"
             },
             {
                 "id":4,
                 "time" : "2008",
                 "school" : "Punggol Secondary School",
-                "img" : "portfolio/img/logo.png"
+                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut odio et leo condimentum sagittis in eu neque. Mauris suscipit tellus at eros gravida, quis vulputate arcu consequat. Maecenas ac tellus convallis, elementum nunc at, tristique magna. Donec facilisis ante non eros vulputate lobortis lacinia id quam. Suspendisse auctor malesuada ipsum quis eleifend. Nam ac elit ac sapien elementum"
             }
     ]
 }

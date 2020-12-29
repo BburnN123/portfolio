@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect,useRef } from 'react';
 import {Row, Col, Card} from 'react-bootstrap';
 import data from '../../assets/data/data.json';
 
@@ -15,23 +15,54 @@ const InfoTab = () =>
 
 }
 
-const EducationTab = () =>
+const TimelineTab = () =>
 {
+    const [TimeLinePage, setTimeLinePage] = useState(0);
+    const [TimeLineData, setTimeLineData] = useState([]);
+    const [TimeLineMax, setTimeLineMax] = useState(false);
+
+    const previousValues = useRef({TimeLinePage});
+
+    useEffect(() => {
+        if(previousValues.current.TimeLinePage !== TimeLinePage)
+        {
+            // for(var i = TimeLinePage * 3; i < (TimeLinePage * 3) + 2; i++) {
+            //     if(data.education.length === i)
+            //     {
+            //         setTimeLineMax(true);
+            //     }
+            //     else{
+            //         TimeLineData.push(data.education[i]);
+            //     }
+            // }
+            console.log("test");
+        }
+   
+    },[]);
+
+
+  
     return(
         <div>
-            {/* <ul id="timeline-nav">
-                {data.education.map((element, i) => {
+            <button onClick={() => setTimeLinePage(TimeLinePage + 1)}>Next</button>
+            <button>Previous</button>
+            <ul id="timeline-nav">
+
+                {TimeLineData.map((element, i) => {
                     return(
                         <li>
                             <div className="timeline-container">
+
                                 <Card>
-                                    {element.time}
+                                    <span>{element.school}</span>
+                                    <span>{element.description}</span>                               
                                 </Card>
+
                             </div>
                         </li>
                     )
                 })}
-            </ul> */}
+            </ul>
         </div>
     )
 }
@@ -47,8 +78,9 @@ const AchievementTab = () =>
 
 function InformationLayout()
 {
-    const [TabPage, setTabPage] = useState(EducationTab);
+    const [TabPage, setTabPage] = useState(TimelineTab);
     const [PageIndex, setPageIndex] = useState(1);
+
     return(
         <Row>
             <Col md={6} >
@@ -61,8 +93,8 @@ function InformationLayout()
                         <li onClick = {()=> {setTabPage(InfoTab);setPageIndex(0);}} className={(PageIndex === 0) ? "active": ""}>
                             <a>Information</a>
                         </li>
-                        <li onClick = {()=> {setTabPage(EducationTab);setPageIndex(1);}} className={(PageIndex === 1) ? "active": ""}>
-                            <a>Education</a>
+                        <li onClick = {()=> {setTabPage(TimelineTab);setPageIndex(1);}} className={(PageIndex === 1) ? "active": ""}>
+                            <a>Timeline</a>
                         </li>
                         <li onClick = {()=>{setTabPage(AchievementTab);setPageIndex(2);}} className={(PageIndex === 2) ? "active": ""}>
                             <a>Achievement</a>

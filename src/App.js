@@ -37,7 +37,7 @@ class App extends React.Component  {
 
       <Router>
 
-          <Nav/>
+          {/* <Nav/> */}
           <Switch>
             <Route path="/portfolio" exact component={HomePage}/>
             <Route path="/about" component={AboutPage}/>

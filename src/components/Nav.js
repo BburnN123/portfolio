@@ -15,9 +15,8 @@ function NavHeader(){
     else
     {
         return(
-            <Navbar style={{padding: "0px"}} bg="dark" expand="lg" className="p">
-                    
-            <Container fluid>
+            <Navbar style={{padding: "0px"}} bg="dark" expand="lg" >
+
                 <NavbarBrand><Image src={Logo} width="80px"/></NavbarBrand>
                 <NavbarToggle aria-controls="navbar-toggle" className="border-0"/>
                 <NavbarCollapse id="navbar-toggle">
@@ -28,7 +27,7 @@ function NavHeader(){
                 </Nav>
                 
                 </NavbarCollapse>
-            </Container>
+
             </Navbar>
         );        
     }

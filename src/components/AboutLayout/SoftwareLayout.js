@@ -4,17 +4,17 @@ import data from '../../assets/data/data.json';
 
 
 
-function SkillLayout()
+function SoftwareLayout()
 {
     return(       
         <Row noGutters>
-            <Col style={{background:"#FF0000"}}>
-                <div id="skill-container" className="about-container">
+            <Col>
+                <div id="software-container" className="about-container">
                     <h1 style={{textAlign: 'center'}}>
-                        Skills
+                        Knowledge
                     </h1>
-                    <div id="skill-list-container">
-                        <ul id="skill-list">
+                    <div id="software-list-container">
+                        <ul id="software-list">
                             {
                                 data.education.map((element, i) => {
                                     return(
@@ -35,4 +35,4 @@ function SkillLayout()
     );
 }
 
-export default SkillLayout;
+export default SoftwareLayout;

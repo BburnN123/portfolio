@@ -1,54 +1,42 @@
 {
-    "cards" :[
+    "cards": [
         {
-            "id":1,
-            "title" : "WARMA",
-            "category" : "a",
-            "img" : "portfolio/img/logo.png"
+            "id": 1,
+            "title": "WARMA",
+            "category": "a",
+            "img": "portfolio/img/logo.png",
+            "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut odio et leo condimentum sagittis in eu neque. Mauris suscipit tellus at eros gravida, quis vulputate arcu consequat. Maecenas ac tellus convallis, elementum nunc at, tristique magna. Donec facilisis ante non eros vulputate lobortis lacinia id quam. Suspendisse auctor malesuada ipsum quis eleifend. Nam ac elit ac sapien elementum",
+            "date": "20 Aug 2020"
         },
         {
-            "id":2,
-            "title" : "WARMAS",
-            "category" : "b",
-            "img" : "portfolio/img/logo.png"
-        },
-        {
-            "id":3,
-            "title" : "WARMASS",
-            "category" : "c",
-            "img" : "portfolio/img/logo.png"
-        },
-        {
-            "id":4,
-            "title" : "WARMASSS",
-            "category" : "c",
-            "img" : "portfolio/img/logo.png"
-        },
-        {
-            "id":5,
-            "title" : "WARMASSSS",
-            "category" : "d",
-            "img" : "portfolio/img/logo.png"
+            "id": 2,
+            "title": "WARMA",
+            "category": "a",
+            "img": "portfolio/img/logo.png",
+            "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam u",
+            "date": "20 Aug 2020"
         }
     ],
-    "education" : [
-            {
-                "id":1,
-                "time" : "2019",
-                "school" : "Singapore Techincal Insitute (SIT)",
-                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut odio et leo condimentum sagittis in eu neque. Mauris suscipit tellus at eros gravida, quis vulputate arcu consequat. Maecenas ac tellus convallis, elementum nunc at, tristique magna. Donec facilisis ante non eros vulputate lobortis lacinia id quam. Suspendisse auctor malesuada ipsum quis eleifend. Nam ac elit ac sapien elementum"
-            },
-            {
-                "id":2,
-                "time" : "2013",
-                "school" : "Nanyang Polytechnic",
-                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut odio et leo condimentum sagittis in eu neque. Mauris suscipit tellus at eros gravida, quis vulputate arcu consequat. Maecenas ac tellus convallis, elementum nunc at, tristique magna. Donec facilisis ante non eros vulputate lobortis lacinia id quam. Suspendisse auctor malesuada ipsum quis eleifend. Nam ac elit ac sapien elementum"
-            },
-            {
-                "id":3,
-                "time" : "2008",
-                "school" : "Punggol Secondary School",
-                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut odio et leo condimentum sagittis in eu neque. Mauris suscipit tellus at eros gravida, quis vulputate arcu consequat. Maecenas ac tellus convallis, elementum nunc at, tristique magna. Donec facilisis ante non eros vulputate lobortis lacinia id quam. Suspendisse auctor malesuada ipsum quis eleifend. Nam ac elit ac sapien elementum"
-            }
+    "education": [
+        {
+            "id": 1,
+            "time": "2019",
+            "school": "Singapore Techincal Insitute (SIT)",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut odio et leo condimentum sagittis in eu neque. Mauris suscipit tellus at eros gravida, quis vulputate arcu consequat. Maecenas ac tellus convallis, elementum nunc at, tristique magna. Donec facilisis ante non eros vulputate lobortis lacinia id quam. Suspendisse auctor malesuada ipsum quis eleifend. Nam ac elit ac sapien elementum"
+        },
+        {
+            "id": 2,
+            "time": "2013",
+            "school": "Nanyang Polytechnic",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut odio et leo condimentum sagittis in eu neque. Mauris suscipit tellus at eros gravida, quis vulputate arcu consequat. Maecenas ac tellus convallis, elementum nunc at, tristique magna. Donec facilisis ante non eros vulputate lobortis lacinia id quam. Suspendisse auctor malesuada ipsum quis eleifend. Nam ac elit ac sapien elementum"
+        },
+        {
+            "id": 3,
+            "time": "2008",
+            "school": "Punggol Secondary School",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut odio et leo condimentum sagittis in eu neque. Mauris suscipit tellus at eros gravida, quis vulputate arcu consequat. Maecenas ac tellus convallis, elementum nunc at, tristique magna. Donec facilisis ante non eros vulputate lobortis lacinia id quam. Suspendisse auctor malesuada ipsum quis eleifend. Nam ac elit ac sapien elementum"
+        }
     ]
 }

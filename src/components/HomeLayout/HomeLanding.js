@@ -1,8 +1,8 @@
 import React from 'react';
 import {Container, Jumbotron, Row, Col ,Button} from 'react-bootstrap';
 import data from '../../assets/data/data.json';
-import CardInfo from '../CardLayout/CardInfo';
-import PortFolioList from '../PortFolioList'
+
+
 
 class HomeLanding extends React.Component{
     constructor(props)
@@ -30,14 +30,6 @@ class HomeLanding extends React.Component{
         this.props.history.push('project/' + data.cards[id - 1].title.toLowerCase());
     }
 
-    makeCard = (cards, showInfo) =>
-    {
-        let back_front_card = [];
-        let cardCol = [];
-        return cards.map((card,i) => {        
-             return <CardInfo key={i} card={card} showInfo={showInfo} />;
-        });
-    }
 
     render()
     {

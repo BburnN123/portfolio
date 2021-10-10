@@ -2,21 +2,33 @@
     "cards": [
         {
             "id": 1,
-            "title": "WARMA",
+            "title": "DOG",
             "category": "a",
             "img": "portfolio/img/logo.png",
             "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut odio et leo condimentum sagittis in eu neque. Mauris suscipit tellus at eros gravida, quis vulputate arcu consequat. Maecenas ac tellus convallis, elementum nunc at, tristique magna. Donec facilisis ante non eros vulputate lobortis lacinia id quam. Suspendisse auctor malesuada ipsum quis eleifend. Nam ac elit ac sapien elementum",
-            "date": "20 Aug 2020"
+            "date": "20 Aug 2020",
+            "gallery": [
+                "portfolio/img/profile-blur.png",
+                "portfolio/img/coding.png",
+                "portfolio/img/profile.png"
+            ],
+            "link" : []
         },
         {
             "id": 2,
-            "title": "WARMA",
+            "title": "CAT",
             "category": "a",
             "img": "portfolio/img/logo.png",
             "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam u",
-            "date": "20 Aug 2020"
+            "description": "Lorem ipsum dolorLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus elit sed tortor maximus molestie. Sed eu sapien scelerisque, commodo est ac, ullamcorper ipsum. Ut scelerisque turpis vitae dui condimentum, ac consectetur urna dictum. Nulla ut enim et urna sollicitudin mattis. Donec luctus consequat quam quis bibendum. Integer ac nisl lacinia, bibendum tellus ut, lobortis dui. Aliquam erat volutpat. Sed vel lorem a odio imperdiet fermentum nec at purus. Morbi sodales urna a pretium tincidunt. Fusce scelerisque tincidunt ligula, eget fermentum nunc fringilla non. Phasellus ultricies, turpis ut tincidunt interdum, turpis nulla tincidunt tortor, id feugiat orci mi dictum velit. Nullam ornare erat orci, id condimentum sem laoreet eget. Sed accumsan dui dolor, ut venenatis mi ornare nec. Proin blandit turpis odio, a malesuada dui scelerisque ultrices. Pellentesque sit amet quam vehicula velit ullamcorper pretium. Duis vitae libero finibus, sodales nisi interdum, sodales quam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus elit sed tortor maximus molestie. Sed eu sapien scelerisque, commodo est ac, ullamcorper ipsum. Ut scelerisque turpis vitae dui condimentum, ac consectetur urna dictum. Nulla ut enim et urna sollicitudin mattis. Donec luctus consequat quam quis bibendum. Integer ac nisl lacinia, bibendum tellus ut, lobortis dui. Aliquam erat volutpat. Sed vel lorem a odio imperdiet fermentum nec at purus. Morbi sodales urna a pretium tincidunt. Fusce scelerisque tincidunt ligula, eget fermentum nunc fringilla non. Phasellus ultricies, turpis ut tincidunt interdum, turpis nulla tincidunt tortor, id feugiat orci mi dictum velit. Nullam ornare erat orci, id condimentum sem laoreet eget. Sed accumsan dui dolor, ut venenatis mi ornare nec. Proin blandit turpis odio, a malesuada dui scelerisque ultrices. Pellentesque sit amet quam vehicula velit ullamcorper pretium. Duis vitae libero finibus, sodales nisi interdum, sodales quam. sit amet, consectetur adipiscing elit. Donec dapibus elit sed tortor maximus molestie. Sed eu sapien scelerisque, commodo est ac, ullamcorper ipsum. Ut scelerisque turpis vitae dui condimentum, ac consectetur urna dictum. Nulla ut enim et urna sollicitudin mattis. Donec luctus consequat quam quis bibendum. Integer ac nisl lacinia, bibendum tellus ut, lobortis dui. Aliquam erat volutpat. Sed vel lorem a odio imperdiet fermentum nec at purus. Morbi sodales urna a pretium tincidunt. Fusce scelerisque tincidunt ligula, eget fermentum nunc fringilla non. Phasellus ultricies, turpis ut tincidunt interdum, turpis nulla tincidunt tortor, id feugiat orci mi dictum velit. Nullam ornare erat orci, id condimentum sem laoreet eget. Sed accumsan dui dolor, ut venenatis mi ornare nec. Proin blandit turpis odio, a malesuada dui scelerisque ultrices. Pellentesque sit amet quam vehicula velit ullamcorper pretium. Duis vitae libero finibus, sodales nisi interdum, sodales quam.",
+            "date": "20 Aug 2020",
+            "gallery": [
+                "portfolio/img/profile-blur.png",
+                "portfolio/img/coding.png",
+                "portfolio/img/profile.png"
+            ],
+            "link" : ["www.github.com", "www.github.com"]
         }
     ],
     "education": [

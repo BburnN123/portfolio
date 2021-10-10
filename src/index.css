@@ -33,3 +33,81 @@ body {
   object-fit: cover;
 }
 
+.project-info-container, .project-info-gallery
+{
+  width:1000px;
+  margin:auto;
+  position: relative;
+}
+
+.project-info-gallery
+{
+  margin-top: 20px;
+}
+
+.project-info-more
+{
+  margin-top: 15px;
+}
+
+.slide-active{
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%);
+  display: flex;
+  justify-content: center;
+  z-index: 15;
+}
+
+.slide-right{
+  position: absolute;
+  right: 60%;
+  -ms-transform: translate(15%, 20%);
+  transform: translate(15%, 20%);
+  display: flex;
+  justify-content: start;
+}
+
+.slide-left{
+  position: absolute;
+  right: 60%;
+  -ms-transform: translate(135%, 20%);
+  transform: translate(135%, 20%);
+  display: flex;
+  justify-content: end;
+}
+
+.slide-active img{
+  opacity: 1;
+  transition: width 2s;
+}
+
+.project-info-img
+{
+  width:70%;
+  height: auto;
+  opacity: 0.2;
+  margin-bottom: 10px;
+}
+
+.gallery-arrow{
+  width:60px;
+  position: absolute;
+  height: auto;
+  z-index: 10;
+  cursor: pointer;
+  -ms-transform: translate(0%, 180%);
+  transform: translate(0%, 180%);
+}
+
+.gallery-arrow-left
+{
+  left:0px;
+}
+
+.gallery-arrow-right
+{
+  right:0px;
+}
+

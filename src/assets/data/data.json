@@ -13,7 +13,7 @@
                 "portfolio/img/coding.png",
                 "portfolio/img/profile.png"
             ],
-            "link" : []
+            "link": []
         },
         {
             "id": 2,
@@ -28,7 +28,30 @@
                 "portfolio/img/coding.png",
                 "portfolio/img/profile.png"
             ],
-            "link" : ["www.github.com", "www.github.com"]
+            "link": [
+                "www.github.com",
+                "www.github.com"
+            ]
+        }
+    ],
+    "design": [
+        {
+            "featured_img": "portfolio/img/profile-blur.png"
+        },
+        {
+            "featured_img": "portfolio/img/profile-blur.png"
+        },
+        {
+            "featured_img": "portfolio/img/profile-blur.png"
+        },
+        {
+            "featured_img": "portfolio/img/profile-blur.png"
+        },
+        {
+            "featured_img": "portfolio/img/profile-blur.png"
+        },
+        {
+            "featured_img": "portfolio/img/profile-blur.png"
         }
     ],
     "education": [

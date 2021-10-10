@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import { Image } from 'react-bootstrap'
-import LeftArrow from '../../assets/images/left-arrow.png'
-import RightArrow from '../../assets/images/right-arrow.png'
+import { Image } from 'react-bootstrap';
 import { FiArrowLeftCircle } from "react-icons/fi";
 import { FiArrowRightCircle } from "react-icons/fi";
 
@@ -41,7 +39,7 @@ const Slider = (props) => {
                 <FiArrowRightCircle  className="gallery-arrow gallery-arrow-right" onClick={nextSlide}/>
       
                 {props.gallery.map((img, index) =>
-                    <div className={`gallery-div ${current === index ? "slide-active" : ""}${nextCurrent === index? "slide-right" : ""}${prevCurrent === index? "slide-left" : ""}`}>
+                    <div key={index} className={`gallery-div ${current === index ? "slide-active" : ""}${nextCurrent === index? "slide-right" : ""}${prevCurrent === index? "slide-left" : ""}`}>
                         < Image src={"../" + img} className="project-info-img" />
                         {/* < Image src={"../" + img} className={`project-info-img `} /> */}
                     </div>

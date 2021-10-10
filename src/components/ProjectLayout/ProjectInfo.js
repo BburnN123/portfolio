@@ -15,7 +15,7 @@ function ProjectInfo(props) {
                 <div className="project-info-description">
                     <Typography variant="subtitle1" style={{ textAlign: "right", color: "#A1A1A1" }}>{cardData.date} </Typography>
                     <Typography variant="body1" style={{ textAlign: "justify" }}>{cardData.description} </Typography>
-                    
+
                     {cardData.link.length > 0 &&
                         <div className="project-info-more">
                             <Typography variant="body1" style={{ textAlign: "justify" }}>More information </Typography>
@@ -33,10 +33,13 @@ function ProjectInfo(props) {
                     }
 
                 </div>
-                <div className="project-info-gallery">
-                    <Slider gallery={cardData.gallery} />
-                </div>
+                {cardData.gallery.length > 0 &&
+                    <div className="project-info-gallery">
+                        <Slider gallery={cardData.gallery} />
+                    </div>
+                }
             </div>
+
         </React.Fragment>
 
     )

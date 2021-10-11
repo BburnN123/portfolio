@@ -1,18 +1,23 @@
-import React from 'react'
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
+import React from "react";
 
-import {Image, Row, Col, Container} from 'react-bootstrap';
-import ProjectImg from '../assets/images/layers.png'
-import {Link} from 'react-router-dom';
+import {
+  Image, Row, Col, Container 
+} from "react-bootstrap";
+import ProjectImg from "../assets/images/layers.png";
+import {
+  Link 
+} from "react-router-dom";
 
 
 
 function AboutPage(props){
-    return(
-        <div>
+  return(
+    <div>
           
-        </div>
+    </div>
     
-    );
+  );
 }
 
 export default AboutPage;

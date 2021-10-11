@@ -33,13 +33,18 @@ body {
   object-fit: cover;
 }
 
-.project-info-container, .project-info-gallery
+.project-info-container
 {
   width:1000px;
   margin:auto;
   position: relative;
 }
+.project-info-gallery
+{
+  margin:auto;
+  position: relative;
 
+}
 .project-info-gallery
 {
   margin-top: 20px;
@@ -80,7 +85,7 @@ body {
 
 .slide-active img{
   opacity: 1;
-  transition: width 2s;
+  /* transition: opacity 2s; */
 }
 
 .project-info-img
@@ -90,6 +95,7 @@ body {
   opacity: 0.2;
   margin-bottom: 10px;
 }
+
 
 .gallery-arrow{
   width:60px;

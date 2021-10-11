@@ -2,22 +2,22 @@
 import React from "react";
 
 import {
-  Image, Row, Col, Container 
+    Image, Row, Col, Container 
 } from "react-bootstrap";
 import ProjectImg from "../assets/images/layers.png";
 import {
-  Link 
+    Link 
 } from "react-router-dom";
 
 
 
 function AboutPage(props){
-  return(
-    <div>
+    return(
+        <div>
           
-    </div>
+        </div>
     
-  );
+    );
 }
 
 export default AboutPage;

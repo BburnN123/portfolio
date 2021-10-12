@@ -33,7 +33,7 @@ body {
   object-fit: cover;
 }
 
-.project-info-container
+.container
 {
   width:1000px;
   margin:auto;
@@ -121,3 +121,58 @@ body {
 {
   width: 95%;
 }
+
+.contact-socialmedia
+{
+  display: inline-flex;
+}
+
+.text-after{
+  display: none;
+}
+
+.text-before:hover
+{
+  display: none;
+}
+
+.text-before:hover + .text-after 
+{
+  display: block;
+}
+
+.contact-socialmedia img
+{
+  width: 40%;
+  padding: 10px;
+  
+}
+
+.strike-word {
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+}
+
+.strike-word:before,
+.strike-word:after {
+  background-color: #000;
+  opacity: 0.4;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 20%;
+}
+
+.strike-word:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.strike-word:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+

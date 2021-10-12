@@ -15,7 +15,7 @@ function ProjectInfo(props) {
                 }}>{cardData.title} </Typography>
 
             </div>
-            <div className="project-info-container">
+            <div className="container">
                 <div className="project-info-description">
                     <Typography variant="subtitle1" style={{
                         textAlign: "right", color: "#A1A1A1" 

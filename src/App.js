@@ -12,6 +12,7 @@ import AboutPage from "./pages/AboutPage";
 import ProjectPage from "./pages/ProjectPage";
 import DesignPage from "./pages/DesignPage";
 import ContactPage from "./pages/ContactPage";
+import LearnPage from "./pages/LearnPage";
 import "./index.css";
 
 
@@ -40,6 +41,7 @@ class App extends React.Component {
                 <Nav />
                 <Switch>
                     <Route path="/portfolio" exact component={HomePage} />
+                    <Route path="/learning" component={LearnPage} />
                     <Route path="/about" component={AboutPage} />
                     <Route path="/design" component={DesignPage} />
                     <Route path="/contact" exact component={ContactPage} />

@@ -73,5 +73,23 @@
             "school": "Punggol Secondary School",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut odio et leo condimentum sagittis in eu neque. Mauris suscipit tellus at eros gravida, quis vulputate arcu consequat. Maecenas ac tellus convallis, elementum nunc at, tristique magna. Donec facilisis ante non eros vulputate lobortis lacinia id quam. Suspendisse auctor malesuada ipsum quis eleifend. Nam ac elit ac sapien elementum"
         }
+    ],
+    "learning": [
+        {
+            "title": "react",
+            "content": {
+                "useCommponent": "<div><h1>NOOB</h1></div><div><h2>NOOB</h2></div><div><h3>NOOB</h3></div>",
+                "useThis": "def",
+                "useTat": "ghi"
+            }
+        },
+        {
+            "title": "andriod",
+            "content": {
+                "useCommponent": "<div><h1>NOOB</h1></div><div><h2>NOOB</h2></div><div><h3>NOOB</h3></div>",
+                "useThis": "def",
+                "useTat": "ghi"
+            }
+        }
     ]
 }

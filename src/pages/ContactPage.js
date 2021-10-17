@@ -38,7 +38,7 @@ class ContactPage extends React.Component {
                 }}
                 className="container">
                     <Typography variant="h2">Contact Me</Typography>
-                    <Typography variant="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae feugiat magna. Phasellus sed magna dui. Pellentesque pretium, purus sed facilisis aliquam, eros ex pharetra mi, ut viverra massa purus in nibh.</Typography>
+                    <Typography variant="body">Always delight to look for an opporunity to learn, design and build the product!</Typography>
                 </div>
                 <div style={{
                     textAlign: "center"
@@ -47,15 +47,21 @@ class ContactPage extends React.Component {
                         <div>
                             <Send />
                         </div>
-                        <div className="text-before">
-                            <Typography variant="h5">Email</Typography>
-                        </div>
-                        <div className="text-after">
-                            <Typography variant="h5">Send an Email</Typography>
+                        <div style={{
+                            marginLeft: "10px"
+                        }}>
+                            <Typography variant="h5">
+                                <a href="mailto:huijie_1995@hotmail.com">
+                                    huijie_1995@hotmail.com
+                                </a>
+                            </Typography>
                         </div>
                     </div>
 
-                    <div>
+                    <div style={{
+                        marginTop:    "10px",
+                        marginBottom: "10px"
+                    }}>
                         <Typography variant="h5" className="strike-word">
                             OR
                         </Typography>
@@ -63,9 +69,11 @@ class ContactPage extends React.Component {
 
                     <div>
                         <Typography variant="h5">
+                            <Image src={LinkedinLogo} width="50" />
+                            <a style={{
+                                marginLeft: "10px"
+                            }} href="https://www.linkedin.com/in/gay-hui-jie">
 
-                            <a href="https://www.linkedin.com/in/gay-hui-jie">
-                                {/* <Image src={LinkedinLogo} width="200" /> */}
                                 Linkedin
                             </a>
                         </Typography>

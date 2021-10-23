@@ -1,6 +1,6 @@
 import React from "react";
 import {
-    Nav, Navbar, NavbarBrand, Image, NavDropdown
+    Nav, Navbar, NavbarBrand, Image
 } from "react-bootstrap";
 import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
 import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
@@ -22,10 +22,10 @@ function NavHeader() {
             <NavbarCollapse id="navbar-toggle">
                 <Nav className="ml-auto">
                     <Nav.Link className={`nav-link ${location.pathname === "/portfolio" ? "nav-link-active" : ""}`} href="/portfolio" >Home</Nav.Link>
-                    <Nav.Link className={`nav-link ${location.pathname === "/#/learning" ? "nav-link-active" : ""}`} href="#/learning">Learning</Nav.Link>
-                    <Nav.Link className={`nav-link ${location.pathname === "/#/project" ? "nav-link-active" : ""}`} href="#/project">Project</Nav.Link>
-                    <Nav.Link className={`nav-link ${location.pathname === "/#/design" ? "nav-link-active" : ""}`} href="#/design">Design</Nav.Link>
-                    <Nav.Link className={`nav-link ${location.pathname === "/#/contact" ? "nav-link-active" : ""}`} href="#/contact">Contact</Nav.Link>
+                    <Nav.Link className={`nav-link ${location.pathname === "/#/learning" ? "nav-link-active" : ""}`} href="/#/learning">Learning</Nav.Link>
+                    <Nav.Link className={`nav-link ${location.pathname === "/#/project" ? "nav-link-active" : ""}`} href="/#/project">Project</Nav.Link>
+                    <Nav.Link className={`nav-link ${location.pathname === "/#/design" ? "nav-link-active" : ""}`} href="/#/design">Design</Nav.Link>
+                    <Nav.Link className={`nav-link ${location.pathname === "/#/contact" ? "nav-link-active" : ""}`} href="/#/contact">Contact</Nav.Link>
                 </Nav>
 
             </NavbarCollapse>

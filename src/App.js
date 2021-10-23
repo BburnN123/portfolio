@@ -40,7 +40,7 @@ class App extends React.Component {
                 <Nav />
                 <Switch>
                     <Route path="/portfolio" exact component={HomePage} />
-                    <Route path="/learning" component={LearnPage} />
+                    <Route path="/portfolio/learning" component={LearnPage} />
                     <Route path="/design" component={DesignPage} />
                     <Route path="/contact" exact component={ContactPage} />
                     <Route path="/project/:page?" render={(props) => <ProjectPage title={this.state.project.title} {...props} />} />

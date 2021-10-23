@@ -11,8 +11,6 @@ import Logo from "../assets/images/logo.png";
 
 
 function NavHeader() {
-    // eslint-disable-next-line no-undef
-    const PUBLIC_URL = process.env.PUBLIC_URL;
 
     //Using the hook to get the location path name
     let location = useLocation();
@@ -24,10 +22,10 @@ function NavHeader() {
             <NavbarCollapse id="navbar-toggle">
                 <Nav className="ml-auto">
                     <Nav.Link className={`nav-link ${location.pathname === "/portfolio" ? "nav-link-active" : ""}`} href="/portfolio" >Home</Nav.Link>
-                    <Nav.Link className={`nav-link ${location.pathname === "/learning" ? "nav-link-active" : ""}`} href={`${PUBLIC_URL}/learning`}>Learning</Nav.Link>
-                    <Nav.Link className={`nav-link ${location.pathname === "/project" ? "nav-link-active" : ""}`} href="/project">Project</Nav.Link>
-                    <Nav.Link className={`nav-link ${location.pathname === "/design" ? "nav-link-active" : ""}`} href={`${PUBLIC_URL}/design`}>Design</Nav.Link>
-                    <Nav.Link className={`nav-link ${location.pathname === "/contact" ? "nav-link-active" : ""}`} href="/contact">Contact</Nav.Link>
+                    <Nav.Link className={`nav-link ${location.pathname === "/#/learning" ? "nav-link-active" : ""}`} href="#/learning">Learning</Nav.Link>
+                    <Nav.Link className={`nav-link ${location.pathname === "/#/project" ? "nav-link-active" : ""}`} href="#/project">Project</Nav.Link>
+                    <Nav.Link className={`nav-link ${location.pathname === "/#/design" ? "nav-link-active" : ""}`} href="#/design">Design</Nav.Link>
+                    <Nav.Link className={`nav-link ${location.pathname === "/#/contact" ? "nav-link-active" : ""}`} href="#/contact">Contact</Nav.Link>
                 </Nav>
 
             </NavbarCollapse>

@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bdfb2e78.chunk.css",
-    "main.js": "/portfolio/static/js/main.f21643cf.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f21643cf.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.bda85c9e.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.bda85c9e.js.map",
-    "static/css/2.95f25948.chunk.css": "/portfolio/static/css/2.95f25948.chunk.css",
-    "static/js/2.b28287ab.chunk.js": "/portfolio/static/js/2.b28287ab.chunk.js",
-    "static/js/2.b28287ab.chunk.js.map": "/portfolio/static/js/2.b28287ab.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/2.95f25948.chunk.css.map": "/portfolio/static/css/2.95f25948.chunk.css.map",
-    "static/css/main.bdfb2e78.chunk.css.map": "/portfolio/static/css/main.bdfb2e78.chunk.css.map",
-    "static/js/2.b28287ab.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b28287ab.chunk.js.LICENSE.txt",
-    "static/media/linkedin-black.0fd9c188.png": "/portfolio/static/media/linkedin-black.0fd9c188.png",
-    "static/media/logo.d30f714d.png": "/portfolio/static/media/logo.d30f714d.png"
+    "main.css": "http://bburnn123.github.io/portfolio/static/css/main.bdfb2e78.chunk.css",
+    "main.js": "http://bburnn123.github.io/portfolio/static/js/main.ec06b50f.chunk.js",
+    "main.js.map": "http://bburnn123.github.io/portfolio/static/js/main.ec06b50f.chunk.js.map",
+    "runtime-main.js": "http://bburnn123.github.io/portfolio/static/js/runtime-main.7fa92bdd.js",
+    "runtime-main.js.map": "http://bburnn123.github.io/portfolio/static/js/runtime-main.7fa92bdd.js.map",
+    "static/css/2.95f25948.chunk.css": "http://bburnn123.github.io/portfolio/static/css/2.95f25948.chunk.css",
+    "static/js/2.b28287ab.chunk.js": "http://bburnn123.github.io/portfolio/static/js/2.b28287ab.chunk.js",
+    "static/js/2.b28287ab.chunk.js.map": "http://bburnn123.github.io/portfolio/static/js/2.b28287ab.chunk.js.map",
+    "index.html": "http://bburnn123.github.io/portfolio/index.html",
+    "static/css/2.95f25948.chunk.css.map": "http://bburnn123.github.io/portfolio/static/css/2.95f25948.chunk.css.map",
+    "static/css/main.bdfb2e78.chunk.css.map": "http://bburnn123.github.io/portfolio/static/css/main.bdfb2e78.chunk.css.map",
+    "static/js/2.b28287ab.chunk.js.LICENSE.txt": "http://bburnn123.github.io/portfolio/static/js/2.b28287ab.chunk.js.LICENSE.txt",
+    "static/media/linkedin-black.0fd9c188.png": "http://bburnn123.github.io/portfolio/static/media/linkedin-black.0fd9c188.png",
+    "static/media/logo.d30f714d.png": "http://bburnn123.github.io/portfolio/static/media/logo.d30f714d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bda85c9e.js",
+    "static/js/runtime-main.7fa92bdd.js",
     "static/css/2.95f25948.chunk.css",
     "static/js/2.b28287ab.chunk.js",
     "static/css/main.bdfb2e78.chunk.css",
-    "static/js/main.f21643cf.chunk.js"
+    "static/js/main.ec06b50f.chunk.js"
   ]
 }

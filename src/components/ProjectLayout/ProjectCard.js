@@ -3,6 +3,8 @@ import {
     Card, Button
 } from "react-bootstrap";
 import Grid from "@material-ui/core/Grid";
+import ReactHtmlParser from "react-html-parser";
+
 
 
 function ProjectCard(props) {
@@ -14,9 +16,9 @@ function ProjectCard(props) {
                 <Card.Body>
                     <Card.Title>{props.card.title}</Card.Title>
                     <Card.Text style={{
-                        height: "100px"
+                        height: "125px"
                     }}>
-                        {props.card.shortDescription}
+                        {ReactHtmlParser(props.card.shortDescription)}
                     </Card.Text>
 
                     <Card.Text>

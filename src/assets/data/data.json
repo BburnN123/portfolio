@@ -1,4 +1,35 @@
 {
+    "introduction": {
+        "front-card": {
+            "name": "Gay Hui Jie",
+            "occupation": "Student",
+            "description": "- Never stop learning and gain experience",
+            "email": "huijie_1995@hotmail.com",
+            "linkedin": "https://www.linkedin.com/in/gay-hui-jie/"
+        },
+        "back-card": {
+            "aim" : "  Aspire to be a data scientist and a software developer(mobile/web) in the future.",
+            "skillset": [
+                "Java",
+                "C#",
+                "Python",
+                "Javascript",
+                "Kotlin",
+                "NodeJs",
+                "Javascript",
+                "Wordpress",
+                "PHP"
+            ],
+            "current": [
+                "Building my portfolio",
+                "Studying React Native",
+                "blah blah",
+                "Building my portfolio",
+                "Studying React Native",
+                "blah blah"
+            ]
+        }
+    },
     "cards": [
         {
             "id": 1,
@@ -6,20 +37,23 @@
             "category": [
                 "Cloud Computing",
                 "Docker",
-                "School Project"
+                "School Project",
+                "Career Nexus"
             ],
             "language": [
                 "Java"
             ],
             "img": "portfolio/img/improved_bully/system_overview.png",
-            "shortDescription": "Improving the number of message overhead being passed for a distributed system. The name of the new devised algorithm is called \"Odd and Even Algorithm\".\n\nThis was feature in career nexus for the school",
+            "shortDescription": "Improving the number of message overhead being passed for a distributed system. The name of the new devised algorithm is called \"Odd and Even Algorithm\".<br/><br/>This was featured in career nexus 2022 for the school",
             "description": "Coordinators are used in distributed systems to optimize resource distribution and maintain consistency. This is implemented with a leader election algorithm to elect new coordinators when the existing leader has failed. The Bully algorithm is a popular approach that re-elects the node with the highest identifier as the leader. However, this algorithm involves a lot of message passing to find the highest available identifier, which imposes heavy traffic. This project aims to improve the bully algorithm by reducing the number of messages exchanged between the nodes by dividing them into two groups to limit the number of nodes involved. By halving the nodes involved, the evaluation of the improved algorithm results in a 75% reduction in the number of messages sent, compared to the original bully algorithm.",
             "date": "21 July 2021",
             "gallery": [
                 "portfolio/img/improved_bully/result_1.png",
                 "portfolio/img/improved_bully/result_2.png"
             ],
-            "link": ["https://github.com/BburnN123/CSC3004_DistributedSystem_Assignment"],
+            "link": [
+                "https://github.com/BburnN123/CSC3004_DistributedSystem_Assignment"
+            ],
             "youtube": "https://www.youtube.com/embed/_VUjeW52H0s"
         },
         {
@@ -27,13 +61,15 @@
             "title": "Data Analytics",
             "category": [
                 "School Project",
-                "Data Analytics"
+                "Data Analytics",
+                "Colab",
+                "Open House"
             ],
             "language": [
-                "Python", "Colab"
+                "Python"
             ],
             "img": "portfolio/img/logo.png",
-            "shortDescription": "Analysing the similarity of the different document similarity. Cosine Similarity was used to compare and ",
+            "shortDescription": "Analysing the similarity of the different document similarity. Cosine Similarity was used to compare and <br/><br/> This was featured in SIT openhouse 2022",
             "description": "Lawyers often use case law, a collection of all past judgments, to argue their case. However, going through all documents with keyword matching is a time-consuming process. This project aims to recommend relevant cases through the use of text mining methods and similarity measures. Users can input past law reports or a text draft of their current findings to get the most relevant documents based on the cosine similarity scores of TF-IDF vectors. Thus, users are not limited by searching with keywords and can query with text paragraphs and even an entire document.",
             "date": "31 July 2021",
             "gallery": [
@@ -77,10 +113,12 @@
             "category": [
                 "Intern",
                 "Research",
-                "Machine Learning"
+                "Machine Learning",
+                "Career Nexus"
             ],
             "language": [
-                "Python", "Flask"
+                "Python",
+                "Flask"
             ],
             "img": "portfolio/img/logo.png",
             "shortDescription": "Analysing the similarity of the different document similarity. Cosine Similarity was used to compare and ",
@@ -129,7 +167,8 @@
                 "School Project"
             ],
             "language": [
-                "C#", "React"
+                "C#",
+                "React"
             ],
             "img": "portfolio/img/logo.png",
             "shortDescription": "Analysing the similarity of the different document similarity. Cosine Similarity was used to compare and ",
@@ -154,7 +193,8 @@
                 "Machine Learning"
             ],
             "language": [
-                "Python", "Flask"
+                "Python",
+                "Flask"
             ],
             "img": "portfolio/img/logo.png",
             "shortDescription": "Analysing the similarity of the different document similarity. Cosine Similarity was used to compare and ",
@@ -170,7 +210,6 @@
             ],
             "youtube": "https://www.youtube.com/embed/5YxJnPxnYxc"
         }
-        
     ],
     "design": [
         "portfolio/img/design/car.png",

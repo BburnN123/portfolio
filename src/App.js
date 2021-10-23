@@ -8,7 +8,6 @@ import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 
 import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
 import ProjectPage from "./pages/ProjectPage";
 import DesignPage from "./pages/DesignPage";
 import ContactPage from "./pages/ContactPage";
@@ -42,7 +41,6 @@ class App extends React.Component {
                 <Switch>
                     <Route path="/portfolio" exact component={HomePage} />
                     <Route path="/learning" component={LearnPage} />
-                    <Route path="/about" component={AboutPage} />
                     <Route path="/design" component={DesignPage} />
                     <Route path="/contact" exact component={ContactPage} />
                     <Route path="/project/:page?" render={(props) => <ProjectPage title={this.state.project.title} {...props} />} />

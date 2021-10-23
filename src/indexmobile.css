@@ -20,4 +20,46 @@
     .gallery-arrow{
         display: none;
     }
+
+    /* CARD CONTAINER*/
+
+    .card-back
+    {
+        overflow: auto;
+        padding: 0px;
+    }
+
+    .card-container {
+
+      margin:0px;
+      height: 60vh;
+    }
+
+    .contactcard-img
+    {
+        width: 80px;
+    }
+
+    .contactcard-h1{
+        font-size: 28px;
+        font-weight: 600;
+    }
+      
+    .contactcard-h2{
+        font-size: 24px;
+    }
+      
+    .contactcard-body{
+        font-size: 15px;
+    }
+
+    .contactcard-ul
+    {
+        text-align: initial;
+        column-count: 1;
+    }
+    .contactcard-footer-content
+    {
+        display: initial
+    }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
-import data from "../assets/data/data.json";
+import data from "../assets/data/project.json";
 import ProjectCard from "../components/ProjectLayout/ProjectCard.js";
 import ProjectInfo from "../components/ProjectLayout/ProjectInfo.js";
 import {
@@ -15,7 +15,6 @@ class ProjectPage extends React.Component {
             title: props.title,
             id:    -1
         };
-
     }
 
     showInfo = (id) => {

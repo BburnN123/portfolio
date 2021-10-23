@@ -33,15 +33,18 @@ class ContactPage extends React.Component {
             <div style={{
                 padding: "10px", margin: "auto"
             }}>
+
                 <div style={{
                     textAlign: "center"
                 }}
-                className="container">
+                className="introduction-container">
                     <Typography variant="h2">Contact Me</Typography>
-                    <Typography variant="body">Always delight to look for an opporunity to learn, design and build the product!</Typography>
+                    <Typography variant="body">Always delight to look for an opporunity to learn, design and build the product! Below is my contact!</Typography>
                 </div>
+
                 <div style={{
-                    textAlign: "center"
+                    textAlign: "center",
+                    marginTop: "50px"
                 }}>
                     <div className="contact-socialmedia">
                         <div>
@@ -72,7 +75,7 @@ class ContactPage extends React.Component {
                             <Image src={LinkedinLogo} width="50" />
                             <a style={{
                                 marginLeft: "10px"
-                            }} href="https://www.linkedin.com/in/gay-hui-jie">
+                            }} href="https://www.linkedin.com/in/gay-hui-jie" target="_blank">
 
                                 Linkedin
                             </a>

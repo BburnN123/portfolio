@@ -25,7 +25,7 @@ const cardFooter = {
 };
 */
 
-function CardFront(props) {
+function CardFront() {
     const content = data.introduction["front-card"];
     return (
         <Card className="card-side card-front">

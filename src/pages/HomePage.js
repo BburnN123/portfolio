@@ -3,6 +3,7 @@ import {
 } from "@material-ui/core";
 import React from "react";
 import CardInfo from "../components/HomeLayout/CardInfo";
+import Timeline from "../components/HomeLayout/Timeline";
 
 
 class HomePage extends React.Component {
@@ -19,13 +20,15 @@ class HomePage extends React.Component {
                 <div style={{
                     textAlign: "center"
                 }}
-                className="container">
-                    <Typography variant="h2">Contact card</Typography>
+                className="introduction-container">
+                    <Typography variant="h3">Hello, there!</Typography>
                 </div>
 
                 <div className="landing-content">
-
                     <CardInfo />
+                </div>
+                <div>
+                    <Timeline />
                 </div>
             </div>
         );

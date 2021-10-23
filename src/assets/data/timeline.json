@@ -1,0 +1,26 @@
+[
+    {
+        "year": "2021",
+        "location": "EEZEE Ptd Ltd",
+        "occupation": "Intern",
+        "description": "<div>Under SIT Internship</div>"
+    },
+    {
+        "year": "2019",
+        "location": "Singapore Techincal Insitute (SIT)",
+        "occupation": "Student",
+        "description": "<div>Course : Computer Science</div><div>Graduation : 2022</div><ul><li>Worked as a Software Developer <ul><li>WARMA</li><li>React Tensorflow Chatbot</li></ul></li><li>Partake as a Student Researcher<ul><li>BUZZ</li></ul></li></ul>"
+    },
+    {
+        "year": "2018",
+        "location": "PixelOak Ptd Ltd",
+        "occupation": "C# Fullstack Developer",
+        "description": "<ul><li>Built an Web Application with C# to integrated with an Mobile Application</li><li>Learned : C#, Wordpress, PHP, Javascript, Deployment, Testing, Firebase</li></ul>"
+    },
+    {
+        "year": "2013",
+        "location": "Nanyang Polytechnic",
+        "occupation": "Student",
+        "description": "<div>Course : Business Informatic</div><div>Graduation year : 2016</div><ul><li>Spent 2 year studying the basic of Business and Information Technology</li><li>Learned to do integrate IT with business</li><li>Final Track took : Information Technology</li><li>Accomplishment : <a href=\"https://www.nyp.edu.sg/schools/sit/industry-projects/centre-for-it-innovation/2016/april/keeping-eczema-under-control-with-an-app.html\" target=\"_blank\">Eczema App</a></li></ul>"
+    }
+]

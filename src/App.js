@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import {
-    BrowserRouter as Router, Route, Switch, useParams, useLocation
+    BrowserRouter as Router, Route, Switch
 } from "react-router-dom";
 
 import Footer from "./components/Footer";
@@ -13,6 +13,11 @@ import DesignPage from "./pages/DesignPage";
 import ContactPage from "./pages/ContactPage";
 import LearnPage from "./pages/LearnPage";
 import "./index.css";
+
+import ReactGA from "react-ga";
+import RouteChangeTracker from "./RouteChangeTracker";
+
+
 
 
 class App extends React.Component {
@@ -35,17 +40,20 @@ class App extends React.Component {
     }
 
     render() {
+
         // eslint-disable-next-line no-undef
-        const PUBLIC_URL = process.env.PUBLIC_URL;
-        console.log(PUBLIC_URL);
+        ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+        ReactGA.pageview(window.location.pathname);
+
         return (
             <Router>
+                <RouteChangeTracker />
                 <Nav />
                 <Switch>
                     <Route path="/portfolio" exact component={HomePage} />
-                    <Route path="#/learning" component={LearnPage} />
-                    <Route path="#/design" component={DesignPage} />
+                    <Route path="/design" component={DesignPage} />
                     <Route path="/contact" exact component={ContactPage} />
+                    <Route path="/learning" component={LearnPage} />
                     <Route path="/project/:page?" render={(props) => <ProjectPage title={this.state.project.title} {...props} />} />
                 </Switch>
                 {/* <Footer/> */}

@@ -25,14 +25,13 @@
 
     .card-back
     {
-        overflow: auto;
         padding: 0px;
     }
 
     .card-container {
 
       margin:0px;
-      height: 60vh;
+
     }
 
     .contactcard-img

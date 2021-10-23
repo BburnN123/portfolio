@@ -1,58 +1,223 @@
 {
+    "introduction": {
+        "front-card": {
+            "name": "Gay Hui Jie",
+            "occupation": "Student",
+            "description": "- Never stop learning and gain experience",
+            "email": "huijie_1995@hotmail.com",
+            "linkedin": "https://www.linkedin.com/in/gay-hui-jie/"
+        },
+        "back-card": {
+            "aim" : "  Aspire to be a data scientist and a software developer(mobile/web) in the future.",
+            "skillset": [
+                "Java",
+                "C#",
+                "Python",
+                "Javascript",
+                "Kotlin",
+                "NodeJs",
+                "Javascript",
+                "Wordpress",
+                "PHP"
+            ],
+            "current": [
+                "Building my portfolio",
+                "Studying React Native",
+                "blah blah",
+                "Building my portfolio",
+                "Studying React Native",
+                "blah blah"
+            ]
+        }
+    },
     "cards": [
         {
             "id": 1,
-            "title": "DOG",
-            "category": "a",
-            "img": "portfolio/img/logo.png",
-            "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut odio et leo condimentum sagittis in eu neque. Mauris suscipit tellus at eros gravida, quis vulputate arcu consequat. Maecenas ac tellus convallis, elementum nunc at, tristique magna. Donec facilisis ante non eros vulputate lobortis lacinia id quam. Suspendisse auctor malesuada ipsum quis eleifend. Nam ac elit ac sapien elementum",
-            "date": "20 Aug 2020",
-            "gallery": [
-                "portfolio/img/profile-blur.png",
-                "portfolio/img/coding.png",
-                "portfolio/img/profile.png"
+            "title": "Imporved Bully Algorithm",
+            "category": [
+                "Cloud Computing",
+                "Docker",
+                "School Project",
+                "Career Nexus"
             ],
-            "link": []
+            "language": [
+                "Java"
+            ],
+            "img": "portfolio/img/improved_bully/system_overview.png",
+            "shortDescription": "Improving the number of message overhead being passed for a distributed system. The name of the new devised algorithm is called \"Odd and Even Algorithm\".<br/><br/>This was featured in career nexus 2022 for the school",
+            "description": "Coordinators are used in distributed systems to optimize resource distribution and maintain consistency. This is implemented with a leader election algorithm to elect new coordinators when the existing leader has failed. The Bully algorithm is a popular approach that re-elects the node with the highest identifier as the leader. However, this algorithm involves a lot of message passing to find the highest available identifier, which imposes heavy traffic. This project aims to improve the bully algorithm by reducing the number of messages exchanged between the nodes by dividing them into two groups to limit the number of nodes involved. By halving the nodes involved, the evaluation of the improved algorithm results in a 75% reduction in the number of messages sent, compared to the original bully algorithm.",
+            "date": "21 July 2021",
+            "gallery": [
+                "portfolio/img/improved_bully/result_1.png",
+                "portfolio/img/improved_bully/result_2.png"
+            ],
+            "link": [
+                "https://github.com/BburnN123/CSC3004_DistributedSystem_Assignment"
+            ],
+            "youtube": "https://www.youtube.com/embed/_VUjeW52H0s"
         },
         {
             "id": 2,
-            "title": "CAT",
-            "category": "a",
+            "title": "Data Analytics",
+            "category": [
+                "School Project",
+                "Data Analytics",
+                "Colab",
+                "Open House"
+            ],
+            "language": [
+                "Python"
+            ],
             "img": "portfolio/img/logo.png",
-            "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "description": "Lorem ipsum dolorLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus elit sed tortor maximus molestie. Sed eu sapien scelerisque, commodo est ac, ullamcorper ipsum. Ut scelerisque turpis vitae dui condimentum, ac consectetur urna dictum. Nulla ut enim et urna sollicitudin mattis. Donec luctus consequat quam quis bibendum. Integer ac nisl lacinia, bibendum tellus ut, lobortis dui. Aliquam erat volutpat. Sed vel lorem a odio imperdiet fermentum nec at purus. Morbi sodales urna a pretium tincidunt. Fusce scelerisque tincidunt ligula, eget fermentum nunc fringilla non. Phasellus ultricies, turpis ut tincidunt interdum, turpis nulla tincidunt tortor, id feugiat orci mi dictum velit. Nullam ornare erat orci, id condimentum sem laoreet eget. Sed accumsan dui dolor, ut venenatis mi ornare nec. Proin blandit turpis odio, a malesuada dui scelerisque ultrices. Pellentesque sit amet quam vehicula velit ullamcorper pretium. Duis vitae libero finibus, sodales nisi interdum, sodales quam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus elit sed tortor maximus molestie. Sed eu sapien scelerisque, commodo est ac, ullamcorper ipsum. Ut scelerisque turpis vitae dui condimentum, ac consectetur urna dictum. Nulla ut enim et urna sollicitudin mattis. Donec luctus consequat quam quis bibendum. Integer ac nisl lacinia, bibendum tellus ut, lobortis dui. Aliquam erat volutpat. Sed vel lorem a odio imperdiet fermentum nec at purus. Morbi sodales urna a pretium tincidunt. Fusce scelerisque tincidunt ligula, eget fermentum nunc fringilla non. Phasellus ultricies, turpis ut tincidunt interdum, turpis nulla tincidunt tortor, id feugiat orci mi dictum velit. Nullam ornare erat orci, id condimentum sem laoreet eget. Sed accumsan dui dolor, ut venenatis mi ornare nec. Proin blandit turpis odio, a malesuada dui scelerisque ultrices. Pellentesque sit amet quam vehicula velit ullamcorper pretium. Duis vitae libero finibus, sodales nisi interdum, sodales quam. sit amet, consectetur adipiscing elit. Donec dapibus elit sed tortor maximus molestie. Sed eu sapien scelerisque, commodo est ac, ullamcorper ipsum. Ut scelerisque turpis vitae dui condimentum, ac consectetur urna dictum. Nulla ut enim et urna sollicitudin mattis. Donec luctus consequat quam quis bibendum. Integer ac nisl lacinia, bibendum tellus ut, lobortis dui. Aliquam erat volutpat. Sed vel lorem a odio imperdiet fermentum nec at purus. Morbi sodales urna a pretium tincidunt. Fusce scelerisque tincidunt ligula, eget fermentum nunc fringilla non. Phasellus ultricies, turpis ut tincidunt interdum, turpis nulla tincidunt tortor, id feugiat orci mi dictum velit. Nullam ornare erat orci, id condimentum sem laoreet eget. Sed accumsan dui dolor, ut venenatis mi ornare nec. Proin blandit turpis odio, a malesuada dui scelerisque ultrices. Pellentesque sit amet quam vehicula velit ullamcorper pretium. Duis vitae libero finibus, sodales nisi interdum, sodales quam.",
-            "date": "20 Aug 2020",
+            "shortDescription": "Analysing the similarity of the different document similarity. Cosine Similarity was used to compare and <br/><br/> This was featured in SIT openhouse 2022",
+            "description": "Lawyers often use case law, a collection of all past judgments, to argue their case. However, going through all documents with keyword matching is a time-consuming process. This project aims to recommend relevant cases through the use of text mining methods and similarity measures. Users can input past law reports or a text draft of their current findings to get the most relevant documents based on the cosine similarity scores of TF-IDF vectors. Thus, users are not limited by searching with keywords and can query with text paragraphs and even an entire document.",
+            "date": "31 July 2021",
             "gallery": [
                 "portfolio/img/profile-blur.png",
                 "portfolio/img/coding.png",
                 "portfolio/img/profile.png"
             ],
             "link": [
-                "www.github.com",
-                "www.github.com"
-            ]
+                "https://github.com/BburnN123/CSC3005_DataAnalytics/tree/main/Project"
+            ],
+            "youtube": "https://www.youtube.com/embed/5YxJnPxnYxc"
+        },
+        {
+            "id": 3,
+            "title": "WARMA",
+            "category": [
+                "Research",
+                "Android",
+                "SEED Grant"
+            ],
+            "language": [
+                "Java"
+            ],
+            "img": "portfolio/img/logo.png",
+            "shortDescription": "Analysing the similarity of the different document similarity. Cosine Similarity was used to compare and ",
+            "description": "The number of accidents involving jaywalking pedestrians rose by 21% in the first half of 2017 in Singapore with about 30% of the cases involving the older adults according to the Traffic Police. Aging is a global trend, the declined perceptual, cognitive function and motor ability in older adults may affect their performance with road crossing and increase the crash risk. Perception and attention are important factors for deciding the direction and speed on the road. In a complex environment when deciding to cross a two-way traffic road, older adults may face problems in determining the direction of the traffic and making the timely decision to cross the road safely. Older pedestrians often resort to jaywalking because of physical and psychological barriers. Decreased lower limb muscle strength and osteoarthritis made these older adults cannot walk very far/fast or walked up or down an overhead bridge and may become road safety worries. Also, evidence has shown that the effects of medical conditions that result in cognitive impairment on pedestrian performance and crash risk.",
+            "date": "31 July 2021",
+            "gallery": [
+                "portfolio/img/profile-blur.png",
+                "portfolio/img/coding.png",
+                "portfolio/img/profile.png"
+            ],
+            "link": [
+                "https://github.com/BburnN123/CSC3005_DataAnalytics/tree/main/Project"
+            ],
+            "youtube": "https://www.youtube.com/embed/5YxJnPxnYxc"
+        },
+        {
+            "id": 4,
+            "title": "BUZZ",
+            "category": [
+                "Intern",
+                "Research",
+                "Machine Learning",
+                "Career Nexus"
+            ],
+            "language": [
+                "Python",
+                "Flask"
+            ],
+            "img": "portfolio/img/logo.png",
+            "shortDescription": "Analysing the similarity of the different document similarity. Cosine Similarity was used to compare and ",
+            "description": "Lawyers often use case law, a collection of all past judgments, to argue their case. However, going through all documents with keyword matching is a time-consuming process. This project aims to recommend relevant cases through the use of text mining methods and similarity measures. Users can input past law reports or a text draft of their current findings to get the most relevant documents based on the cosine similarity scores of TF-IDF vectors. Thus, users are not limited by searching with keywords and can query with text paragraphs and even an entire document.",
+            "date": "31 July 2021",
+            "gallery": [
+                "portfolio/img/profile-blur.png",
+                "portfolio/img/coding.png",
+                "portfolio/img/profile.png"
+            ],
+            "link": [
+                "https://github.com/BburnN123/CSC3005_DataAnalytics/tree/main/Project"
+            ],
+            "youtube": "https://www.youtube.com/embed/5YxJnPxnYxc"
+        },
+        {
+            "id": 5,
+            "title": "Smart Phramacy",
+            "category": [
+                "Android",
+                "School Project"
+            ],
+            "language": [
+                "Kotlin"
+            ],
+            "img": "portfolio/img/logo.png",
+            "shortDescription": "Analysing the similarity of the different document similarity. Cosine Similarity was used to compare and ",
+            "description": "",
+            "date": "31 July 2021",
+            "gallery": [
+                "portfolio/img/profile-blur.png",
+                "portfolio/img/coding.png",
+                "portfolio/img/profile.png"
+            ],
+            "link": [
+                "https://github.com/BburnN123/CSC3005_DataAnalytics/tree/main/Project"
+            ],
+            "youtube": "https://www.youtube.com/embed/5YxJnPxnYxc"
+        },
+        {
+            "id": 5,
+            "title": "Team Project",
+            "category": [
+                "Web Application",
+                "Industry Project",
+                "School Project"
+            ],
+            "language": [
+                "C#",
+                "React"
+            ],
+            "img": "portfolio/img/logo.png",
+            "shortDescription": "Analysing the similarity of the different document similarity. Cosine Similarity was used to compare and ",
+            "description": "Lawyers often use case law, a collection of all past judgments, to argue their case. However, going through all documents with keyword matching is a time-consuming process. This project aims to recommend relevant cases through the use of text mining methods and similarity measures. Users can input past law reports or a text draft of their current findings to get the most relevant documents based on the cosine similarity scores of TF-IDF vectors. Thus, users are not limited by searching with keywords and can query with text paragraphs and even an entire document.",
+            "date": "31 July 2021",
+            "gallery": [
+                "portfolio/img/profile-blur.png",
+                "portfolio/img/coding.png",
+                "portfolio/img/profile.png"
+            ],
+            "link": [
+                "https://github.com/BburnN123/CSC3005_DataAnalytics/tree/main/Project"
+            ],
+            "youtube": "https://www.youtube.com/embed/5YxJnPxnYxc"
+        },
+        {
+            "id": 5,
+            "title": "Oversea Immersion Program",
+            "category": [
+                "Intern",
+                "Research",
+                "Machine Learning"
+            ],
+            "language": [
+                "Python",
+                "Flask"
+            ],
+            "img": "portfolio/img/logo.png",
+            "shortDescription": "Analysing the similarity of the different document similarity. Cosine Similarity was used to compare and ",
+            "description": "Lawyers often use case law, a collection of all past judgments, to argue their case. However, going through all documents with keyword matching is a time-consuming process. This project aims to recommend relevant cases through the use of text mining methods and similarity measures. Users can input past law reports or a text draft of their current findings to get the most relevant documents based on the cosine similarity scores of TF-IDF vectors. Thus, users are not limited by searching with keywords and can query with text paragraphs and even an entire document.",
+            "date": "31 July 2021",
+            "gallery": [
+                "portfolio/img/profile-blur.png",
+                "portfolio/img/coding.png",
+                "portfolio/img/profile.png"
+            ],
+            "link": [
+                "https://github.com/BburnN123/CSC3005_DataAnalytics/tree/main/Project"
+            ],
+            "youtube": "https://www.youtube.com/embed/5YxJnPxnYxc"
         }
     ],
     "design": [
-        {
-            "featured_img": "portfolio/img/profile-blur.png"
-        },
-        {
-            "featured_img": "portfolio/img/profile-blur.png"
-        },
-        {
-            "featured_img": "portfolio/img/profile-blur.png"
-        },
-        {
-            "featured_img": "portfolio/img/profile-blur.png"
-        },
-        {
-            "featured_img": "portfolio/img/profile-blur.png"
-        },
-        {
-            "featured_img": "portfolio/img/profile-blur.png"
-        }
+        "portfolio/img/design/car.png",
+        "portfolio/img/design/food.png",
+        "portfolio/img/design/food_v1.png",
+        "portfolio/img/design/jewellery.png",
+        "portfolio/img/design/tianlis.png",
+        "portfolio/img/design/travel.png"
     ],
     "education": [
         {
@@ -72,6 +237,24 @@
             "time": "2008",
             "school": "Punggol Secondary School",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut odio et leo condimentum sagittis in eu neque. Mauris suscipit tellus at eros gravida, quis vulputate arcu consequat. Maecenas ac tellus convallis, elementum nunc at, tristique magna. Donec facilisis ante non eros vulputate lobortis lacinia id quam. Suspendisse auctor malesuada ipsum quis eleifend. Nam ac elit ac sapien elementum"
+        }
+    ],
+    "learning": [
+        {
+            "title": "react",
+            "content": {
+                "useCommponent": "<div><h1>NOOB</h1></div><div><h2>NOOB</h2></div><div><h3>NOOB</h3></div>",
+                "useThis": "def",
+                "useTat": "ghi"
+            }
+        },
+        {
+            "title": "andriod",
+            "content": {
+                "useCommponent": "<div><h1>NOOB</h1></div><div><h2>NOOB</h2></div><div><h3>NOOB</h3></div>",
+                "useThis": "def",
+                "useTat": "ghi"
+            }
         }
     ]
 }

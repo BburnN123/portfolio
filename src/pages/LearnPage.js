@@ -76,31 +76,27 @@ class LearnPage extends React.Component {
 
         return (
 
-        // <Grid container spacing={2} padding="10">
-        //     <Grid item md={4} xs={12} sm={3}>
-        //         <div className="accordion-wrapper">
-        //             <div className="accordion">
-        //                 {
-        //                     data.learning.map((link, index) => {
-        //                         return (
-        //                             <AccordionContent active={this.state.active} link={link} setContentPage={this.setContentPage} />);
-        //                     })
-        //                 }
-        //             </div>
-        //         </div>
+            <Grid container spacing={2} padding="10">
+                <Grid item md={4} xs={12} sm={3}>
+                    <div className="accordion-wrapper">
+                        <div className="accordion">
+                            {
+                                data.learning.map((link, index) => {
+                                    return (
+                                        <AccordionContent active={this.state.active} link={link} setContentPage={this.setContentPage} />);
+                                })
+                            }
+                        </div>
+                    </div>
 
-        //     </Grid>
-        //     <Grid item md={8} xs={12} sm={3}>
-        //         <div>
-        //             <ContentPageLayout content={this.state.content} />
-        //         </div>
+                </Grid>
+                <Grid item md={8} xs={12} sm={3}>
+                    <div>
+                        <ContentPageLayout content={this.state.content} />
+                    </div>
 
-        //     </Grid>
-        // </Grid>
-
-            <div>
-                Coming Soon
-            </div>
+                </Grid>
+            </Grid>
 
 
         );

@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "http://bburnn123.github.io/portfolio/static/css/main.bdfb2e78.chunk.css",
-    "main.js": "http://bburnn123.github.io/portfolio/static/js/main.ec06b50f.chunk.js",
-    "main.js.map": "http://bburnn123.github.io/portfolio/static/js/main.ec06b50f.chunk.js.map",
-    "runtime-main.js": "http://bburnn123.github.io/portfolio/static/js/runtime-main.7fa92bdd.js",
-    "runtime-main.js.map": "http://bburnn123.github.io/portfolio/static/js/runtime-main.7fa92bdd.js.map",
-    "static/css/2.95f25948.chunk.css": "http://bburnn123.github.io/portfolio/static/css/2.95f25948.chunk.css",
-    "static/js/2.b28287ab.chunk.js": "http://bburnn123.github.io/portfolio/static/js/2.b28287ab.chunk.js",
-    "static/js/2.b28287ab.chunk.js.map": "http://bburnn123.github.io/portfolio/static/js/2.b28287ab.chunk.js.map",
-    "index.html": "http://bburnn123.github.io/portfolio/index.html",
-    "static/css/2.95f25948.chunk.css.map": "http://bburnn123.github.io/portfolio/static/css/2.95f25948.chunk.css.map",
-    "static/css/main.bdfb2e78.chunk.css.map": "http://bburnn123.github.io/portfolio/static/css/main.bdfb2e78.chunk.css.map",
-    "static/js/2.b28287ab.chunk.js.LICENSE.txt": "http://bburnn123.github.io/portfolio/static/js/2.b28287ab.chunk.js.LICENSE.txt",
-    "static/media/linkedin-black.0fd9c188.png": "http://bburnn123.github.io/portfolio/static/media/linkedin-black.0fd9c188.png",
-    "static/media/logo.d30f714d.png": "http://bburnn123.github.io/portfolio/static/media/logo.d30f714d.png"
+    "main.css": "https://bburnn123.github.io/portfolio/static/css/main.bdfb2e78.chunk.css",
+    "main.js": "https://bburnn123.github.io/portfolio/static/js/main.079ab9cb.chunk.js",
+    "main.js.map": "https://bburnn123.github.io/portfolio/static/js/main.079ab9cb.chunk.js.map",
+    "runtime-main.js": "https://bburnn123.github.io/portfolio/static/js/runtime-main.356ceb06.js",
+    "runtime-main.js.map": "https://bburnn123.github.io/portfolio/static/js/runtime-main.356ceb06.js.map",
+    "static/css/2.95f25948.chunk.css": "https://bburnn123.github.io/portfolio/static/css/2.95f25948.chunk.css",
+    "static/js/2.b28287ab.chunk.js": "https://bburnn123.github.io/portfolio/static/js/2.b28287ab.chunk.js",
+    "static/js/2.b28287ab.chunk.js.map": "https://bburnn123.github.io/portfolio/static/js/2.b28287ab.chunk.js.map",
+    "index.html": "https://bburnn123.github.io/portfolio/index.html",
+    "static/css/2.95f25948.chunk.css.map": "https://bburnn123.github.io/portfolio/static/css/2.95f25948.chunk.css.map",
+    "static/css/main.bdfb2e78.chunk.css.map": "https://bburnn123.github.io/portfolio/static/css/main.bdfb2e78.chunk.css.map",
+    "static/js/2.b28287ab.chunk.js.LICENSE.txt": "https://bburnn123.github.io/portfolio/static/js/2.b28287ab.chunk.js.LICENSE.txt",
+    "static/media/linkedin-black.0fd9c188.png": "https://bburnn123.github.io/portfolio/static/media/linkedin-black.0fd9c188.png",
+    "static/media/logo.d30f714d.png": "https://bburnn123.github.io/portfolio/static/media/logo.d30f714d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7fa92bdd.js",
+    "static/js/runtime-main.356ceb06.js",
     "static/css/2.95f25948.chunk.css",
     "static/js/2.b28287ab.chunk.js",
     "static/css/main.bdfb2e78.chunk.css",
-    "static/js/main.ec06b50f.chunk.js"
+    "static/js/main.079ab9cb.chunk.js"
   ]
 }

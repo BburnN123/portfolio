@@ -56,7 +56,7 @@ class App extends React.Component {
                     <Route path="/learning" component={LearnPage} />
                     <Route path="/project/:page?" render={(props) => <ProjectPage title={this.state.project.title} {...props} />} />
                 </Switch>
-                {/* <Footer/> */}
+                <Footer/>
             </Router>
         );
     }

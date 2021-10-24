@@ -10,10 +10,10 @@ function Footer(){
             <Container fluid={true}>
                 <Row className="border-top justify-content-between p-3">
                     <Col className="p-0" md={3} sm={12}>
-                        TGest
+                       Last Updated : 25/10/2021
                     </Col>
                     <Col className="p-0 justify-content-end" md={3}>
-                        This site is created by
+                        This site is created by ReactJS
                     </Col>
                 </Row>
             </Container>

@@ -33,7 +33,7 @@ const AccordionContent = (props) => {
 
                                 // Only appear if the title and the content is being selected
                                 Object.keys(props.link.content).map((key, i) => (
-                                    <li className={`nav-li ${props.link.title === props.active[0] && key === props.active[1] ? "active" : ""}`}
+                                    <li key ={i} className={`nav-li ${props.link.title === props.active[0] && key === props.active[1] ? "active" : ""}`}
                                         onClick={() => props.setContentPage(props.link.content[key], [ props.link.title, key ])} >
                                         <Typography className="content-p" variant="body1" >
                                             {key}

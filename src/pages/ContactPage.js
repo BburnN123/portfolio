@@ -39,7 +39,7 @@ class ContactPage extends React.Component {
                 }}
                 className="introduction-container">
                     <Typography variant="h2">Contact Me</Typography>
-                    <Typography variant="body">Always delight to look for an opporunity to learn, design and build the product! Below is my contact!</Typography>
+                    <Typography variant="body1">Always delight to look for an opporunity to learn, design and build the product! Below is my contact!</Typography>
                 </div>
 
                 <div style={{
@@ -77,8 +77,9 @@ class ContactPage extends React.Component {
                                 marginLeft: "10px"
                             }} href="https://www.linkedin.com/in/gay-hui-jie" target="_blank">
 
-                                Linkedin
+                                Linkedin  (Preferable)
                             </a>
+                            
                         </Typography>
                     </div>
 

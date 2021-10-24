@@ -32,7 +32,7 @@ class DesignPage extends React.Component {
                 }}
                 className="introduction-container">
                     <Typography variant="h2">Design</Typography>
-                    <Typography variant="body">Design was done using <a href="https://www.adobe.com/sg/products/xd.html">Adobe XD</a> and <a href="https://www.figma.com/">Figma</a>. The design is just drawn for fun as well as learning how to use the UI tools.</Typography>
+                    <Typography variant="body1">Design was done using <a href="https://www.adobe.com/sg/products/xd.html">Adobe XD</a> and <a href="https://www.figma.com/">Figma</a>. The design is just drawn for fun as well as learning how to use the UI tools.</Typography>
                 </div>
                 <Grid container spacing={3}>
                     {data.design.map((element, i) => (

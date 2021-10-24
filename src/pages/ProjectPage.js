@@ -11,24 +11,37 @@ class ProjectPage extends React.Component {
 
     constructor(props) {
         super(props);
+
+
+        const jsonCards = data.cards.sort(function (a, b) {
+
+            // Turn your strings into dates, and then subtract them
+            // to get a value that is either negative, positive, or zero.
+            return new Date(b.date) - new Date(a.date);
+        });
         this.state = {
-            title: props.title,
-            id:    -1
+            title:     props.title,
+            id:        -1,
+            jsonCards: jsonCards
         };
     }
 
     showInfo = (id) => {
-        this.props.history.push("project/" + data.cards[id - 1].title.toLowerCase());
+        this.props.history.push("project/" + this.state.jsonCards[id].title.toLowerCase() + "#");
     }
 
     render() {
+
+
         if (this.props.match.params.page) {
             let data_key = 0;
-            data.cards.forEach((element, key) => {
+            this.state.jsonCards.forEach((element, key) => {
                 if (element.title.toLowerCase() === this.props.match.params.page.toLowerCase()) {
                     data_key = key;
                 }
             });
+            window.scrollTo(0, 0);
+            
             return (
                 <ProjectInfo id={data_key} />
             );
@@ -38,9 +51,9 @@ class ProjectPage extends React.Component {
                     <div style={{
                         textAlign: "center"
                     }}
-                    className="container">
+                    className="intoduction-container">
                         <Typography variant="h2">Project</Typography>
-                        <Typography variant="body">Here is a list of project that was done! Happy scrolling! </Typography>
+                        <Typography variant="body1">Here is a list of project that was done! Happy scrolling! </Typography>
                     </div>
                     <div style={{
                         padding: "10px",
@@ -48,9 +61,14 @@ class ProjectPage extends React.Component {
                     }}>
                         <Grid container spacing={3}>
                             {
-                                data.cards.map((element, i) => (
-                                    <ProjectCard key={i} card={element} showInfo={this.showInfo} />
-                                ))}
+                                this.state.jsonCards.map((_element, i) => {
+                                    _element.id = i;
+
+                                    return (
+                                        <ProjectCard key={i} card={_element} showInfo={this.showInfo} />
+                                    );
+                                }
+                                )}
                         </Grid>
 
                     </div>

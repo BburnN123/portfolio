@@ -24,8 +24,8 @@ function NavHeader() {
             <NavbarCollapse id="navbar-toggle">
                 <Nav className="ml-auto">
                     <Link className={`nav-link ${location.pathname === "/portfolio" ? "nav-link-active" : ""}`} to="/portfolio" >Home</Link>
-                    {/* <Link className={`nav-link ${location.pathname === "/learning" ? "nav-link-active" : ""}`} to="/learning">Learning</Link>
-                    <Link className={`nav-link ${location.pathname === "/project" ? "nav-link-active" : ""}`} to="/project">Project</Link> */}
+                    {/* <Link className={`nav-link ${location.pathname === "/learning" ? "nav-link-active" : ""}`} to="/learning">Learning</Link> */}
+                    <Link className={`nav-link ${location.pathname === "/project" ? "nav-link-active" : ""}`} to="/project">Project</Link>
                     <Link className={`nav-link ${location.pathname === "/design" ? "nav-link-active" : ""}`} to="/design">Design</Link>
                     <Link className={`nav-link ${location.pathname === "/contact" ? "nav-link-active" : ""}`} to="/contact">Contact</Link>
                 </Nav>

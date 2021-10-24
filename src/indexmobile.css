@@ -6,8 +6,22 @@
 
     .project-info-gallery, .gallery-div
     {
-        position: initial;
-        display: initial;
+        position: initial !important;
+        display: initial !important;  
+    }
+
+    .gallery-div img
+    {
+        border : 1px solid #000000;
+    }
+
+    .projectcard-description{
+        height: 100%!important;    
+    }
+
+    .card-img-top
+    {
+        height: auto;
     }
 
     .gallery-div img{
@@ -62,3 +76,5 @@
         display: initial
     }
 }
+
+

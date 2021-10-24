@@ -87,32 +87,42 @@ body {
   margin-top: 15px;
 }
 
+.project-info-description
+{
+  text-align: justify;
+}
+
 .slide-active{
   position: absolute;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%);
-  display: flex;
+  display: flex !important;
   justify-content: center;
   z-index: 15;
-}
-
-.slide-right{
-  position: absolute;
-  right: 60%;
-  -ms-transform: translate(15%, 20%);
-  transform: translate(15%, 20%);
-  display: flex;
-  justify-content: start;
 }
 
 .slide-left{
   position: absolute;
   right: 60%;
+  -ms-transform: translate(15%, 20%);
+  transform: translate(15%, 20%);
+  display: flex !important;
+  justify-content: start;
+}
+
+.slide-right{
+  position: absolute;
+  right: 60%;
   -ms-transform: translate(135%, 20%);
   transform: translate(135%, 20%);
-  display: flex;
+  display: flex !important;
   justify-content: end;
+}
+
+.gallery-div 
+{
+  display: none;
 }
 
 .slide-active img{
@@ -183,8 +193,13 @@ body {
 {
   width: 40%;
   padding: 10px;
-  
 }
+
+/* PROJECTCARD.JS*/
+.projectcard-description{
+  height:200px;    
+}
+
 
 .strike-word {
   overflow: hidden;

@@ -2,8 +2,9 @@ import {
     Typography
 } from "@material-ui/core";
 import React from "react";
-import data from "../../assets/data/data.json";
+import data from "../../assets/data/project.json";
 import Slider from "../SliderLayout/Slider.js";
+import ReactHtmlParser from "react-html-parser";
 
 function ProjectInfo(props) {
     let cardData = data.cards[props.id];
@@ -23,10 +24,8 @@ function ProjectInfo(props) {
                         textAlign: "right", color: "#A1A1A1"
                     }}>{cardData.date} </Typography>
 
-                    <Typography variant="body1" style={{
-                        textAlign: "justify"
-                    }}>{cardData.description} </Typography>
-
+                    {ReactHtmlParser(cardData.description)}
+                    
                     {/* External link of the project information */}
                     {cardData.link.length > 0 &&
                         <div className="project-info-more">
@@ -38,7 +37,7 @@ function ProjectInfo(props) {
                                 {cardData.link.map((link, index) => {
                                     return (
                                         <li key={index}>
-                                            <a href={link}>{link}</a>
+                                            <a href={link} target="_blank">{link}</a>
                                         </li>
                                     );
                                 })}
@@ -55,8 +54,8 @@ function ProjectInfo(props) {
                                 height="315"
                                 src={cardData.youtube}
                                 title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
                             </iframe>
                         </div> : ""}
 

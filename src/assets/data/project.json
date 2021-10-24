@@ -1,7 +1,6 @@
 {
     "cards": [
         {
-            "id": 1,
             "title": "Imporved Bully Algorithm",
             "category": [
                 "Cloud Computing",
@@ -26,8 +25,7 @@
             "youtube": "https://www.youtube.com/embed/_VUjeW52H0s"
         },
         {
-            "id": 2,
-            "title": "Data Analytics",
+            "title": "Lawyer Recommender System",
             "category": [
                 "School Project",
                 "Data Analytics",
@@ -37,147 +35,100 @@
             "language": [
                 "Python"
             ],
-            "img": "portfolio/img/logo.png",
-            "shortDescription": "Analysing the similarity of the different document similarity. Cosine Similarity was used to compare and <br/><br/> This was featured in SIT openhouse 2022",
-            "description": "Lawyers often use case law, a collection of all past judgments, to argue their case. However, going through all documents with keyword matching is a time-consuming process. This project aims to recommend relevant cases through the use of text mining methods and similarity measures. Users can input past law reports or a text draft of their current findings to get the most relevant documents based on the cosine similarity scores of TF-IDF vectors. Thus, users are not limited by searching with keywords and can query with text paragraphs and even an entire document.",
+            "img": "portfolio/img/data_analytics/wordcloud.PNG",
+            "shortDescription": "This project aims to recommend relevant cases using text mining methods and similarity measures. Users can input past law reports or a text draft of their current findings to get the most relevant documents based on the cosine similarity scores of TF-IDF vectors. <br/><br/> This was featured in SIT openhouse 2022",
+            "description": "<div>This project focuses on recommending appropriate and relevant case law through the use of text mining methods and similarity measures. The goal of this project is to show the connection between legal processes and the analysis of large amounts of text data, and perhaps increase productivity for both judges and legal persons when working with textual and legal issues. In order to overcome these problems, a formulation of a text clustering approach enables the grouping of related documents based on the user input.</div><br/><div>Within the raw document, there are lots of special characters as well as numbers that would hinder the process in the later stage. Hence, the document would remove any words that are less than three such as “to”,”be” and any numeric that could be found in the document. In addition, special characters like “.” or  “ ‘ ”  are removed from the document.</div><br/><div>Next, we did a comparison using the “CountVectorizer” and “TF-IDF Vectorizer” to preprocess the document. The conclusion was to use “TF-IDF Vectorizer”as it provides us with a more statistical measure to reflect how important the words are in a document. <a href=”https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c” target=”_blank”>PCA</a> was done to further reduce the number of attributes while preserving as much information as possible.K-Means and Cosine Similarity was done to check if the document is able to group or return any similar documents to the user. Data visualization was done to check if any further tuning of the parameter is required. </div><br/><div>Lastly, instead of searching for a keyword that matches the input, the recommender system is able to process the keyword and return the document with the highest word similarity. It is also able to process and return the cluster of the input query. WordCloud is used to display the significance of the word. The larger the word, the more significant the word is for the respective document. </div>",
             "date": "31 July 2021",
             "gallery": [
-                "portfolio/img/profile-blur.png",
-                "portfolio/img/coding.png",
-                "portfolio/img/profile.png"
+                "portfolio/img/data_analytics/cluster.PNG",
+                "portfolio/img/data_analytics/heatmap.PNG",
+                "portfolio/img/data_analytics/k-means.PNG",
+                "portfolio/img/data_analytics/wordcloud.PNG"
             ],
             "link": [
-                "https://github.com/BburnN123/CSC3005_DataAnalytics/tree/main/Project"
+                "https://github.com/BburnN123/CSC3005_DataAnalytics/tree/main/Project",
+                "https://github.com/BburnN123/CSC3005_DataAnalytics/blob/main/Project/DAReportSessionGroup07.pdf"
             ],
             "youtube": "https://www.youtube.com/embed/5YxJnPxnYxc"
         },
         {
-            "id": 3,
             "title": "WARMA",
             "category": [
                 "Research",
                 "Android",
-                "SEED Grant"
+                "Estimote Beacons",
+                "SEED Grant",
+                "Healthcare"
             ],
             "language": [
                 "Java"
             ],
-            "img": "portfolio/img/logo.png",
-            "shortDescription": "Analysing the similarity of the different document similarity. Cosine Similarity was used to compare and ",
-            "description": "The number of accidents involving jaywalking pedestrians rose by 21% in the first half of 2017 in Singapore with about 30% of the cases involving the older adults according to the Traffic Police. Aging is a global trend, the declined perceptual, cognitive function and motor ability in older adults may affect their performance with road crossing and increase the crash risk. Perception and attention are important factors for deciding the direction and speed on the road. In a complex environment when deciding to cross a two-way traffic road, older adults may face problems in determining the direction of the traffic and making the timely decision to cross the road safely. Older pedestrians often resort to jaywalking because of physical and psychological barriers. Decreased lower limb muscle strength and osteoarthritis made these older adults cannot walk very far/fast or walked up or down an overhead bridge and may become road safety worries. Also, evidence has shown that the effects of medical conditions that result in cognitive impairment on pedestrian performance and crash risk.",
-            "date": "31 July 2021",
-            "gallery": [
-                "portfolio/img/profile-blur.png",
-                "portfolio/img/coding.png",
-                "portfolio/img/profile.png"
-            ],
-            "link": [
-                "https://github.com/BburnN123/CSC3005_DataAnalytics/tree/main/Project"
-            ],
-            "youtube": "https://www.youtube.com/embed/5YxJnPxnYxc"
+            "img": "portfolio/img/warma.png",
+            "shortDescription": "Older pedestrians often resort to jaywalking because of physical and psychological barriers. Decreased lower limb muscle strength and osteoarthritis made these older adults cannot walk very far/fast or walked up or down an overhead bridge and may become road safety worries.",
+            "description": "<div>As the name suggested, it is a Warning, Alerting, Reminding, Mobile Application. WARMA will analyse the direction and speed of the older adults and whether the older adult is approaching the “Red zone”, “Yellow zone” or “Green zone (safety zone)”.  The zone range will be 100m, 300m, 500m based on the user to the road. Depending on the user mobility reaction and movement, the mobile application is set with strong vibration or high alert noise. </div><br/><div>This project will be using <a href=\"https://estimote.com/\" target=\"_blank\">Estimote Beacons</a> to help facilitate the distance. The mobile application was further integrated with the beacons with further testing. Some consideration would be the duration for the mobile application to recieve its signal as well as the succession rate of detecting the beacons . Other tests that were done was to check if there were multiple beacons within the area and how to overcome it.</div> <br/><div>After testing, we realised that there was always a delay of 1-3 seconds before the mobile application is able to do warn the user. This have prove the unreliability of the beacons as we required a real time tracking. Another disadvantage would be that the user has to on its bluetooth in order to receive the signal from the beacons. Another approach that was considered was the usage of GPS to alert the user from the danger. Due to the limit resources and time, the confidence level of using the GPS was low as there was not enough testing being done.</div>",
+            "date": "30 June 2020",
+            "gallery": [],
+            "link": [],
+            "youtube": "https://www.youtube.com/embed/57nopZ5uxNM"
         },
         {
-            "id": 4,
-            "title": "BUZZ",
-            "category": [
-                "Intern",
-                "Research",
-                "Machine Learning",
-                "Career Nexus"
-            ],
-            "language": [
-                "Python",
-                "Flask"
-            ],
-            "img": "portfolio/img/logo.png",
-            "shortDescription": "Analysing the similarity of the different document similarity. Cosine Similarity was used to compare and ",
-            "description": "Lawyers often use case law, a collection of all past judgments, to argue their case. However, going through all documents with keyword matching is a time-consuming process. This project aims to recommend relevant cases through the use of text mining methods and similarity measures. Users can input past law reports or a text draft of their current findings to get the most relevant documents based on the cosine similarity scores of TF-IDF vectors. Thus, users are not limited by searching with keywords and can query with text paragraphs and even an entire document.",
-            "date": "31 July 2021",
-            "gallery": [
-                "portfolio/img/profile-blur.png",
-                "portfolio/img/coding.png",
-                "portfolio/img/profile.png"
-            ],
-            "link": [
-                "https://github.com/BburnN123/CSC3005_DataAnalytics/tree/main/Project"
-            ],
-            "youtube": "https://www.youtube.com/embed/5YxJnPxnYxc"
-        },
-        {
-            "id": 5,
             "title": "Smart Phramacy",
             "category": [
                 "Android",
-                "School Project"
+                "School Project",
+                "Firebase"
             ],
             "language": [
-                "Kotlin"
+                "Kotlin",
+                "Mongo",
+                "Express",
+                "NodeJS"
             ],
-            "img": "portfolio/img/logo.png",
-            "shortDescription": "Analysing the similarity of the different document similarity. Cosine Similarity was used to compare and ",
-            "description": "",
-            "date": "31 July 2021",
+            "img": "portfolio/img/android/qr.png",
+            "shortDescription": "The current dispensing process is time-consuming and prone to human errors. By designing and developing a mobile application, we hope to provide a more efficient way for the user to perform routine tasks such as dispensing medication and managing inventory",
+            "description": "<div>Currently, pharmacists manually locate and identify drugs during the dispensing process. This process poses problems such as human errors, longer retrieval time for inexperienced staff and difficulties during inventory management. </div><br/><div>The shelves are manually labelled, and the only automation occurs when the doctor prints a label out for the nurses to refer to when fetching the medication. During the process of dispensing medication, it was identified that there is a need to minimise human dispensing errors due to the manual dispensing process involved. Hence, the mobile application aims to provide an automated dispensing system where the pharmacist is able to locate the medicine cabinet quicker via Computer Vision and QR codes.</div><br/><div>Medical staff are required to perform manual stocktaking and updates to the inventory level. This process is time-consuming and prone to human errors. The mobile application also automated the restocking process by scanning the QR code when the package has been delivered. </div><br/><div>Extra features<ul><li>Authentication</li><li>Dark Mode</li><li>Push Notification</li></ul></div>",
+            "date": "9 April 2021",
             "gallery": [
-                "portfolio/img/profile-blur.png",
-                "portfolio/img/coding.png",
-                "portfolio/img/profile.png"
+                "portfolio/img/android/qr.PNG",
+                "portfolio/img/android/inventory_qr.PNG",
+                "portfolio/img/android/darkmode.PNG"
             ],
-            "link": [
-                "https://github.com/BburnN123/CSC3005_DataAnalytics/tree/main/Project"
-            ],
-            "youtube": "https://www.youtube.com/embed/5YxJnPxnYxc"
+            "link": [],
+            "youtube": "https://www.youtube.com/embed/9uLdDwgSbqw"
         },
         {
-            "id": 5,
-            "title": "Team Project",
-            "category": [
-                "Web Application",
-                "Industry Project",
-                "School Project"
-            ],
-            "language": [
-                "C#",
-                "React"
-            ],
-            "img": "portfolio/img/logo.png",
-            "shortDescription": "Analysing the similarity of the different document similarity. Cosine Similarity was used to compare and ",
-            "description": "Lawyers often use case law, a collection of all past judgments, to argue their case. However, going through all documents with keyword matching is a time-consuming process. This project aims to recommend relevant cases through the use of text mining methods and similarity measures. Users can input past law reports or a text draft of their current findings to get the most relevant documents based on the cosine similarity scores of TF-IDF vectors. Thus, users are not limited by searching with keywords and can query with text paragraphs and even an entire document.",
-            "date": "31 July 2021",
-            "gallery": [
-                "portfolio/img/profile-blur.png",
-                "portfolio/img/coding.png",
-                "portfolio/img/profile.png"
-            ],
-            "link": [
-                "https://github.com/BburnN123/CSC3005_DataAnalytics/tree/main/Project"
-            ],
-            "youtube": "https://www.youtube.com/embed/5YxJnPxnYxc"
-        },
-        {
-            "id": 5,
             "title": "Oversea Immersion Program",
             "category": [
-                "Intern",
-                "Research",
-                "Machine Learning"
+                "Collabrative Courses",
+                "Raspberry PI",
+                "IoT",
+                "Machine Learning",
+                "Otsu Thresholding",
+                "Object Detection"
             ],
             "language": [
                 "Python",
-                "Flask"
+                "Tkinter",
+                "Tensorflow Lite"
             ],
-            "img": "portfolio/img/logo.png",
-            "shortDescription": "Analysing the similarity of the different document similarity. Cosine Similarity was used to compare and ",
-            "description": "Lawyers often use case law, a collection of all past judgments, to argue their case. However, going through all documents with keyword matching is a time-consuming process. This project aims to recommend relevant cases through the use of text mining methods and similarity measures. Users can input past law reports or a text draft of their current findings to get the most relevant documents based on the cosine similarity scores of TF-IDF vectors. Thus, users are not limited by searching with keywords and can query with text paragraphs and even an entire document.",
-            "date": "31 July 2021",
+            "img": "portfolio/img/oip/ostu.png",
+            "shortDescription": "Feeding syringes are commonly found in the medical sector. It is an essential tool to assist nurses to feed patients who are unable to take solid food. As nursing homes usually do not have a huge financial backing, such syringes would need to be reused in order to save costs.",
+            "description": "<div>OpenCV was used for the analysis of the syringes. Instead of rebuilding the whole hardware system or readjusting the budget cost by installing a new sensor, the machine learning model can be rebuilt and reinstalled into the system without reconfiguring the product design. The model can also be trained to detect new classification of the syringes without spending on any new sensor.</div><br/><div>There are a total of 5 categories which consist of “Wet Plunger”, “Wet Syringe”, “Dry Syringe”, “Dry Plunger”, “Moist Syringe” with a total of 180 image data each after normalising. The average precision and detection rate improved by 10% when the image was switched to Grayscale. The model used was “SSD MobileNet V2 FPNLite 640 x 640” as its accuracy is higher than the 320x320. Also, instead of using a real time detector, the image was captured at a certain interval by the Raspberry Pi camera module to be analysed.</div><br/><div>The Raspberry Pi camera module will be positioned at the top to provide a top-down view of the syringes. By doing a visual inspection of the syringes, the system will determine if the syringes are dried. Once the system has confirmed that all syringes have been dried, the sterilisation process will take place to kill any remaining bacteria to ensure that the syringes are ready to be reused.</div><br/><div>As this is a one month project, there was not enough time to test the <a href=\"https://learnopencv.com/otsu-thresholding-with-opencv/\" target=\"_blank\">“Ostu Thresholding”</a>. This can be a future implementation to improve the detection between the wet and dry syringes as the water droplet can be more visible with lesser noises from the images.</div>",
+            "date": "31 August 2021",
             "gallery": [
-                "portfolio/img/profile-blur.png",
-                "portfolio/img/coding.png",
-                "portfolio/img/profile.png"
+                "portfolio/img/oip/ui.PNG",
+                "portfolio/img/oip/test2.PNG",
+                "portfolio/img/oip/tensorboard_graph.PNG",
+                "portfolio/img/oip/tensorboard.PNG",
+                "portfolio/img/oip/wetsyringe.PNG"
+
             ],
             "link": [
-                "https://github.com/BburnN123/CSC3005_DataAnalytics/tree/main/Project"
+                "https://github.com/BburnN123/CSC3003_OIP_Object_Detection",
+                "https://www.youtube.com/watch?v=yqkISICHH-U&t=8949s&ab_channel=NicholasRenotte",
+                "https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md"
             ],
-            "youtube": "https://www.youtube.com/embed/5YxJnPxnYxc"
+            "youtube": "https://www.youtube.com/embed/6D8jMdVK9GM"
         }
     ]
 }

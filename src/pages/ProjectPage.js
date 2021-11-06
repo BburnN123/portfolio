@@ -27,7 +27,9 @@ class ProjectPage extends React.Component {
     }
 
     showInfo = (id) => {
-        this.props.history.push("project/" + this.state.jsonCards[id].title.toLowerCase() + "#");
+
+        // Add # to bring to the top of the page
+        this.props.history.push("project/" + this.state.jsonCards[id].title.toLowerCase() + "/#");
     }
 
     render() {

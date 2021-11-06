@@ -49,7 +49,7 @@ const Slider = (props) => {
                 {props.gallery.map((img, index) =>
                     <div key={index} className={`gallery-div ${current === index ? "slide-active" : ""}${nextCurrent === index? "slide-right" : ""}${prevCurrent === index? "slide-left" : ""}`}>
                         {/* <div key={index} className={`gallery-div ${current === index ? "slide-active" : ""}`}> */}
-                        < Image src={"../" + img} className="project-info-img" />
+                        < Image src={"../../" + img} className="project-info-img" />
                     </div>
                 )}
             </React.Fragment>

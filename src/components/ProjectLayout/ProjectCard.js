@@ -8,7 +8,7 @@ import ReactHtmlParser from "react-html-parser";
 
 function ProjectCard(props) {
     const containerStyle = {
-        marginBottom: "10px"
+        marginBottom: "20px"
     };
 
 
@@ -18,7 +18,9 @@ function ProjectCard(props) {
 
                 <Card.Img variant="top" src={props.card.img} className="projectcard-image" />
                 <Card.Body>
-                    <Card.Title>{props.card.title}</Card.Title>
+                    <Card.Title style={{
+                        textTransform: "capitalize"
+                    }}>{props.card.title.replaceAll("-", " ")}</Card.Title>
                     <div className="projectcard-description" style={containerStyle}>
                         <Card.Text>
                             {ReactHtmlParser(props.card.shortDescription)}

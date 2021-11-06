@@ -17,9 +17,6 @@ import "./index.css";
 import ReactGA from "react-ga";
 import RouteChangeTracker from "./RouteChangeTracker";
 
-
-
-
 class App extends React.Component {
     constructor(props) {
         super(props);
@@ -42,8 +39,8 @@ class App extends React.Component {
     render() {
 
         // eslint-disable-next-line no-undef
-        // ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
-        // ReactGA.pageview(window.location.pathname);
+        ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+        ReactGA.pageview(window.location.pathname);
 
         return (
             <Router>
@@ -56,7 +53,7 @@ class App extends React.Component {
                     <Route path="/learning" component={LearnPage} />
                     <Route path="/project/:page?" render={(props) => <ProjectPage title={this.state.project.title} {...props} />} />
                 </Switch>
-                <Footer/>
+                {/* <Footer/> */}
             </Router>
         );
     }

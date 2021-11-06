@@ -12,8 +12,9 @@ function ProjectInfo(props) {
         <React.Fragment>
             <div className="project-info-header">
                 <Typography variant="h2" style={{
-                    textAlign: "center"
-                }}>{cardData.title} </Typography>
+                    textAlign:     "center",
+                    textTransform: "capitalize"
+                }}>{cardData.title.replaceAll("-", " ")} </Typography>
 
             </div>
             <div className="divider"></div>
@@ -25,7 +26,7 @@ function ProjectInfo(props) {
                     }}>{cardData.date} </Typography>
 
                     {ReactHtmlParser(cardData.description)}
-                    
+
                     {/* External link of the project information */}
                     {cardData.link.length > 0 &&
                         <div className="project-info-more">
@@ -44,32 +45,41 @@ function ProjectInfo(props) {
                             </ul>
                         </div>
                     }
+
                     {/* Youtube link to the project */}
 
                     <div className="divider"></div>
-                    {cardData.youtube !== null ?
+                    {cardData.youtube.length > 0 &&
 
                         <div className="video-container">
-                            <iframe width="560"
-                                height="315"
-                                src={cardData.youtube}
-                                title="YouTube video player"
-                                frameBorder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
-                            </iframe>
-                        </div> : ""}
+                            {cardData.youtube.map((youtube_link, index) => (
+                                <iframe
+                                    key={index}
+                                    src={youtube_link}
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
+                                </iframe>
+                            ))}
+
+                        </div>
+
+                    }
+
+
 
                 </div>
-            </div>
+            </div >
             <div className="divider"></div>
 
             {/* Image of the project */}
-            {cardData.gallery.length > 0 &&
+            {
+                cardData.gallery.length > 0 &&
                 <div className="project-info-gallery">
                     <Slider gallery={cardData.gallery} />
                 </div>
             }
-        </React.Fragment>
+        </React.Fragment >
     );
 }
 

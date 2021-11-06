@@ -72,7 +72,7 @@ class ContactPage extends React.Component {
 
                     <div>
                         <Typography variant="h5">
-                            <Image src={LinkedinLogo} width="50" />
+                            <Image src={LinkedinLogo} width="30" />
                             <a style={{
                                 marginLeft: "10px"
                             }} href="https://www.linkedin.com/in/gay-hui-jie" target="_blank">

@@ -71,9 +71,20 @@
         text-align: initial;
         column-count: 1;
     }
+
     .contactcard-footer-content
     {
         display: initial
+    }
+
+    .video-container iframe
+    {
+        width: 260px;
+        height: 145px;
+    }
+
+    .project-info-more ul{
+        overflow-wrap: break-word;
     }
 }
 

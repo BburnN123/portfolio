@@ -1,7 +1,7 @@
 {
     "cards": [
         {
-            "title": "Imporved Bully Algorithm",
+            "title": "imporved-bully-algorithm",
             "category": [
                 "Cloud Computing",
                 "Docker",
@@ -11,21 +11,23 @@
             "language": [
                 "Java"
             ],
-            "img": "portfolio/img/improved_bully/system_overview.png",
+            "img": "portfolio/img/improved_bully/system_overview.PNG",
             "shortDescription": "Improving the number of message overhead being passed for a distributed system. The name of the new devised algorithm is called \"Odd and Even Algorithm\".<br/><br/>This was featured in career nexus 2022 for the school",
             "description": "Coordinators are used in distributed systems to optimize resource distribution and maintain consistency. This is implemented with a leader election algorithm to elect new coordinators when the existing leader has failed. The Bully algorithm is a popular approach that re-elects the node with the highest identifier as the leader. However, this algorithm involves a lot of message passing to find the highest available identifier, which imposes heavy traffic. This project aims to improve the bully algorithm by reducing the number of messages exchanged between the nodes by dividing them into two groups to limit the number of nodes involved. By halving the nodes involved, the evaluation of the improved algorithm results in a 75% reduction in the number of messages sent, compared to the original bully algorithm.",
             "date": "21 July 2021",
             "gallery": [
-                "portfolio/img/improved_bully/result_1.png",
-                "portfolio/img/improved_bully/result_2.png"
+                "portfolio/img/improved_bully/result_1.PNG",
+                "portfolio/img/improved_bully/result_2.PNG"
             ],
             "link": [
                 "https://github.com/BburnN123/CSC3004_DistributedSystem_Assignment"
             ],
-            "youtube": "https://www.youtube.com/embed/_VUjeW52H0s"
+            "youtube": [
+                "https://www.youtube.com/embed/_VUjeW52H0s"
+            ]
         },
         {
-            "title": "Lawyer Recommender System",
+            "title": "lawyer-recommender-system",
             "category": [
                 "School Project",
                 "Data Analytics",
@@ -49,7 +51,9 @@
                 "https://github.com/BburnN123/CSC3005_DataAnalytics/tree/main/Project",
                 "https://github.com/BburnN123/CSC3005_DataAnalytics/blob/main/Project/DAReportSessionGroup07.pdf"
             ],
-            "youtube": "https://www.youtube.com/embed/5YxJnPxnYxc"
+            "youtube": [
+                "https://www.youtube.com/embed/5YxJnPxnYxc"
+            ]
         },
         {
             "title": "WARMA",
@@ -63,16 +67,18 @@
             "language": [
                 "Java"
             ],
-            "img": "portfolio/img/warma.png",
+            "img": "portfolio/img/warma.PNG",
             "shortDescription": "Older pedestrians often resort to jaywalking because of physical and psychological barriers. Decreased lower limb muscle strength and osteoarthritis made these older adults cannot walk very far/fast or walked up or down an overhead bridge and may become road safety worries.",
             "description": "<div>As the name suggested, it is a Warning, Alerting, Reminding, Mobile Application. WARMA will analyse the direction and speed of the older adults and whether the older adult is approaching the “Red zone”, “Yellow zone” or “Green zone (safety zone)”.  The zone range will be 100m, 300m, 500m based on the user to the road. Depending on the user mobility reaction and movement, the mobile application is set with strong vibration or high alert noise. </div><br/><div>This project will be using <a href=\"https://estimote.com/\" target=\"_blank\">Estimote Beacons</a> to help facilitate the distance. The mobile application was further integrated with the beacons with further testing. Some consideration would be the duration for the mobile application to recieve its signal as well as the succession rate of detecting the beacons . Other tests that were done was to check if there were multiple beacons within the area and how to overcome it.</div> <br/><div>After testing, we realised that there was always a delay of 1-3 seconds before the mobile application is able to do warn the user. This have prove the unreliability of the beacons as we required a real time tracking. Another disadvantage would be that the user has to on its bluetooth in order to receive the signal from the beacons. Another approach that was considered was the usage of GPS to alert the user from the danger. Due to the limit resources and time, the confidence level of using the GPS was low as there was not enough testing being done.</div>",
             "date": "30 June 2020",
             "gallery": [],
             "link": [],
-            "youtube": "https://www.youtube.com/embed/57nopZ5uxNM"
+            "youtube": [
+                "https://www.youtube.com/embed/57nopZ5uxNM"
+            ]
         },
         {
-            "title": "Smart Phramacy",
+            "title": "smart-phramacy",
             "category": [
                 "Android",
                 "School Project",
@@ -84,7 +90,7 @@
                 "Express",
                 "NodeJS"
             ],
-            "img": "portfolio/img/android/qr.png",
+            "img": "portfolio/img/android/qr.PNG",
             "shortDescription": "The current dispensing process is time-consuming and prone to human errors. By designing and developing a mobile application, we hope to provide a more efficient way for the user to perform routine tasks such as dispensing medication and managing inventory",
             "description": "<div>Currently, pharmacists manually locate and identify drugs during the dispensing process. This process poses problems such as human errors, longer retrieval time for inexperienced staff and difficulties during inventory management. </div><br/><div>The shelves are manually labelled, and the only automation occurs when the doctor prints a label out for the nurses to refer to when fetching the medication. During the process of dispensing medication, it was identified that there is a need to minimise human dispensing errors due to the manual dispensing process involved. Hence, the mobile application aims to provide an automated dispensing system where the pharmacist is able to locate the medicine cabinet quicker via Computer Vision and QR codes.</div><br/><div>Medical staff are required to perform manual stocktaking and updates to the inventory level. This process is time-consuming and prone to human errors. The mobile application also automated the restocking process by scanning the QR code when the package has been delivered. </div><br/><div>Extra features<ul><li>Authentication</li><li>Dark Mode</li><li>Push Notification</li></ul></div>",
             "date": "9 April 2021",
@@ -94,14 +100,17 @@
                 "portfolio/img/android/darkmode.PNG"
             ],
             "link": [],
-            "youtube": "https://www.youtube.com/embed/9uLdDwgSbqw"
+            "youtube": [
+                "https://www.youtube.com/embed/9uLdDwgSbqw"
+            ]
         },
         {
-            "title": "Oversea Immersion Program",
+            "title": "oversea-immersion-program",
             "category": [
                 "Collabrative Courses",
                 "Raspberry PI",
                 "IoT",
+                "School Project",
                 "Machine Learning",
                 "Otsu Thresholding",
                 "Object Detection"
@@ -111,7 +120,7 @@
                 "Tkinter",
                 "Tensorflow Lite"
             ],
-            "img": "portfolio/img/oip/ostu.png",
+            "img": "portfolio/img/oip/ostu.PNG",
             "shortDescription": "Feeding syringes are commonly found in the medical sector. It is an essential tool to assist nurses to feed patients who are unable to take solid food. As nursing homes usually do not have a huge financial backing, such syringes would need to be reused in order to save costs.",
             "description": "<div>OpenCV was used for the analysis of the syringes. Instead of rebuilding the whole hardware system or readjusting the budget cost by installing a new sensor, the machine learning model can be rebuilt and reinstalled into the system without reconfiguring the product design. The model can also be trained to detect new classification of the syringes without spending on any new sensor.</div><br/><div>There are a total of 5 categories which consist of “Wet Plunger”, “Wet Syringe”, “Dry Syringe”, “Dry Plunger”, “Moist Syringe” with a total of 180 image data each after normalising. The average precision and detection rate improved by 10% when the image was switched to Grayscale. The model used was “SSD MobileNet V2 FPNLite 640 x 640” as its accuracy is higher than the 320x320. Also, instead of using a real time detector, the image was captured at a certain interval by the Raspberry Pi camera module to be analysed.</div><br/><div>The Raspberry Pi camera module will be positioned at the top to provide a top-down view of the syringes. By doing a visual inspection of the syringes, the system will determine if the syringes are dried. Once the system has confirmed that all syringes have been dried, the sterilisation process will take place to kill any remaining bacteria to ensure that the syringes are ready to be reused.</div><br/><div>As this is a one month project, there was not enough time to test the <a href=\"https://learnopencv.com/otsu-thresholding-with-opencv/\" target=\"_blank\">“Ostu Thresholding”</a>. This can be a future implementation to improve the detection between the wet and dry syringes as the water droplet can be more visible with lesser noises from the images.</div>",
             "date": "31 August 2021",
@@ -121,14 +130,76 @@
                 "portfolio/img/oip/tensorboard_graph.PNG",
                 "portfolio/img/oip/tensorboard.PNG",
                 "portfolio/img/oip/wetsyringe.PNG"
-
             ],
             "link": [
                 "https://github.com/BburnN123/CSC3003_OIP_Object_Detection",
                 "https://www.youtube.com/watch?v=yqkISICHH-U&t=8949s&ab_channel=NicholasRenotte",
                 "https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md"
             ],
-            "youtube": "https://www.youtube.com/embed/6D8jMdVK9GM"
+            "youtube": [
+                "https://www.youtube.com/embed/6D8jMdVK9GM"
+            ]
+        },
+        {
+            "title": "team-project",
+            "category": [
+                "Industry Project",
+                "School Project",
+                "Web Application",
+                "REST API",
+                "Large Scale Integration",
+                "Smart Warehouse",
+                "JMeter",
+                "Figma",
+                "Unit Testing",
+                "Load Testing",
+                "Integration Testing",
+                "UAT"
+            ],
+            "language": [
+                "React JS",
+                "C#"
+            ],
+            "img": "portfolio/img/team_project/workflow.PNG",
+            "shortDescription": "The solution aims to develop an effective and smart intelligent shipping system with a combination of workflow management, positioning management, and logistics management. Transformation and enhancement of the entire nature of logistics prioritize the user experience, portability and system reliability by putting the user at the centre. <br/> <br/> The timeline for this project was 8 months",
+            "description": "<div>This application contains 12 different sub-modules which have been split across the whole Computing Science degree program where each team, based on the module criteria, has utilized the different developmental frameworks.</div><br/><div>The team is assigned to do a submodule of the Warehouse Management System (WMS), Inventory Tracking. The program should only allow the administrator or inventory manager to manage the cargo activities created by the client. They can reject, accept as well as change the status to pending. They can manage cargo that is expiring and the activities created throughout the year. Expiring cargoes can be alerted via email with a click of a button. Booking data received from Booking Modules has to be sent over to the Inventory Tracking module to populate necessary data in the database as well as provide smart assignment of lots to cargoes and workers to Order List jobs.</div><br/><div>The team is required to gather the information from the client and propose a solution for the problem. User stories, System boundary, Wireframe and Entity Relationship Diagram (ERD) was required to present to the client for approval. Once the client has approved the proposal, the teams begin to develop the web application and have to present it to the customer during the demo day (4 demo day in total). </div><br/><div>During the final phase, a large-scale integration was done between the 12 teams. Jmeter was used to simulate up to 200 users with a ramp up of 60 seconds period to simulate the traffic load while ensuring the system integrity. </div>",
+            "date": "05 April 2021",
+            "gallery": [
+                "portfolio/img/team_project/calendar.PNG",
+                "portfolio/img/team_project/deliverytracking.PNG",
+                "portfolio/img/team_project/tracklot.PNG"
+            ],
+            "link": [],
+            "youtube": [
+                "https://www.youtube.com/embed/OJmUkzX8-RE",
+                "https://www.youtube.com/embed/BVzi9ML122o"
+            ]
+        },
+        {
+            "title": "tensorflow-react-chatbot",
+            "category": [
+                "Tensorflow",
+                "Chatbot",
+                "AI",
+                "Colab"
+            ],
+            "language": [
+                "React JS",
+                "Python",
+                "TFJS"
+            ],
+            "img": "portfolio/img/react_chatbot/prototype.PNG",
+            "shortDescription": "An AI chatbot was created to satisfied the client requirement. Transforming Tensorflow into TFJS have abit of limitation and design to be thought about before implmenting it. An example would be Google Dialogflow which have the similar concept reconverting the model everytime that was an update in the intents.",
+            "description": "<div>This chatbot UI can be obtained from <a href=”https://github.com/ritesh-sharma33/react-dialogflow-chatbot”>https://github.com/ritesh-sharma33/react-dialogflow-chatbot</a>. The github is using the DialogFlow to create their chatbot. In our case, we will be focusing more on TensorflowJS for the implementation of the chatbot.</div><br/><div>To configure our chatbot, we will first write the intended behavior inside the “intents.json”. Within the “intents.json” file, it will contain an array of objects which is “tag”, “pattern”, “responses” and “context”. This file was further lemmentaizer to provide us the bag of words and the classes that we have which fall inside “words.json”. Lastly, “words.json” was used to train the model which will provide us the “mode.h5” files. However, the file will then be transformed into “model.json” and provided an additional file called “group1-shard1of1.bin”. The model convert that will be using is “<a href=”https://www.tensorflow.org/js”>TensorflowJS</a>”</div><br/><div>The 4 files that was created are “group1-shard1of1.bin”, “intents.json”, “model.json” and “words.json”, will then be placed into the “React Application” to load and run. The full example can be found below as shown. Try asking \"How are you?\"</div><br/><object class=\"object-container\" type=\"text/html\" data=\"https://bburnn123.github.io/react_chatbot\" style=\"overflow:auto\"></object>",
+            "date": "17 June 2021",
+            "gallery": [],
+            "link": [
+                "https://bburnn123.github.io/react_chatbot/",
+                "https://github.com/BburnN123/react_chatbot",
+                "https://towardsdatascience.com/how-to-use-tensorflow-js-in-react-js-sentimental-analysis-59c538c07256",
+                "https://www.tensorflow.org/js/tutorials/conversion/import_keras"
+            ],
+            "youtube": []
         }
     ]
 }

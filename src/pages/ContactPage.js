@@ -11,7 +11,6 @@ import LinkedinLogo from "../assets/images/linkedin-black.png";
 import {
     Image
 } from "react-bootstrap";
-import Grid from "@material-ui/core/Grid";
 
 class ContactPage extends React.Component {
 

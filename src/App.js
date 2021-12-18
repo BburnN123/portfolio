@@ -12,6 +12,7 @@ import ProjectPage from "./pages/ProjectPage";
 import DesignPage from "./pages/DesignPage";
 import ContactPage from "./pages/ContactPage";
 import LearnPage from "./pages/LearnPage";
+import ComponentPage from "./pages/ComponentPage";
 import "./index.css";
 
 import ReactGA from "react-ga";
@@ -32,6 +33,9 @@ class App extends React.Component {
             },
             project: {
                 title: "Project"
+            },
+            component: {
+                title: "Component"
             }
         };
     }
@@ -51,6 +55,7 @@ class App extends React.Component {
                     <Route path="/design" component={DesignPage} />
                     <Route path="/contact" exact component={ContactPage} />
                     <Route path="/learning" component={LearnPage} />
+                    <Route path="/component" component={ComponentPage} />
                     <Route path="/project/:page?" render={(props) => <ProjectPage title={this.state.project.title} {...props} />} />
                 </Switch>
                 {/* <Footer/> */}
